@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'iAPS'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2023, Artificial Pancreas'
+author = 'Jon Björn Mårtensson'
 
-release = '0.1'
+release = '1.1.2'
 version = '0.1.0'
 
 # -- General configuration
