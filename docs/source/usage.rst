@@ -6,29 +6,14 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To install iPAS, either use MacOS Terminal:
 
-.. code-block:: console
+.. git clone --branch=main https://github.com/artificial-pancreas/iaps.git
+.. cd iaps
+.. xed.
 
-   (.venv) $ pip install lumache
+Or use GitHub web interface:
 
-Creating recipes
-----------------
+.. Tap "Open with Xcode" using the green code button.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
