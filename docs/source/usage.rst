@@ -9,11 +9,11 @@ Installation
 To install iPAS, either use MacOS Terminal:
 
 git clone --branch=main https://github.com/artificial-pancreas/iaps.git  
-cd iaps  
-xed.
+cd iaps    
+xed.  
 
 Or use GitHub web interface:
 
-.. Tap "Open with Xcode" using the green code button.
+Tap "Open with Xcode" using the green code button.
 
 
