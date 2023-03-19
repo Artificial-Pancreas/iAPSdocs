@@ -3,7 +3,7 @@ Welcome to iAPS documentation!
 
 **iAPS** is an iOS app.  
 
-<https://github.com/Artificial-Pancreas/iAPS/>`_
+https://github.com/Artificial-Pancreas/iAPS/
 
 
 Check out the :doc:`usage` section for further information, including
