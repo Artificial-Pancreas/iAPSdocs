@@ -1,11 +1,11 @@
 # Overview
-FreeAPS X (FAX) is an artificial pancreas system that is based on the OpenAPS (oref1) algorithm that runs on an iPhone (iOS 15.1 or newer). This is a completely different algorithm than the algorithm used by Loop (and the FreeAPS fork of Loop).
+FreeAPS X (FAX) is an artificial pancreas system that is based on the [OpenAPS](https://openaps.readthedocs.io/en/latest) (oref1) algorithm that runs on an iPhone (iOS 15.1 or newer). This is a completely different algorithm than the algorithm used by Loop (and the FreeAPS fork of Loop).
 
 ## What is the state of FAX?
 
-The initial implementation of FAX, by Ivan Valkou, was halted in spring 2022. That branch is stable and still in use, but not all features listed below are available in his repository. For example, there is no DASH support or G7 support.
+The initial implementation of FAX, by Ivan Valkou, was halted in spring 2022. That branch is stable and still in use, but not all features listed below are available in his [repository](https://github.com/ivalkou/freeaps#readme). For example, there is no DASH support or G7 support.
 
-With the advent of DASH in Loop-dev in 2022, Pierre Avous provided his own fork to continue development; Jon B Mårtensson, working closely with Pierre provides a fork with additional features. Both of their forks support DASH. Pierre is currently working to add G7 support.
+With the advent of DASH in Loop-dev in 2022, [Pierre Avous](https://github.com/avouspierre/freeaps#readme) provided his own fork to continue development; [Jon B Mårtensson](https://github.com/Jon-b-m/freeaps#freeaps-x), working closely with Pierre provides a fork with additional features. Both of their forks support DASH. Pierre is currently working to add G7 support.
 
 You should not attempt to use any version of FAX unless you have a clear understanding of how DIY artificial pancreas systems work, are comfortable with the potential need to rebuild. You should be willing and able to provide detailed troubleshooting information to the developers when you have a problem.
 
@@ -21,22 +21,23 @@ Before entering any values into FreeAPS X, select your units. The default is mmo
 Tap Settings, Preferences and adjust Glucose Units to mg/dl if that is your system of units
 Please read the Initial Preferences and Advanced Preferences before modifying any other preferences from the defaults 
 If you enter settings in the wrong units – you must delete them and re-enter upon change of this preference
-Hardware
-Computer
+
+## Hardware
+### Computer
 For Xcode Build: Access to a Mac (or Virtual Machine) – Monterey (macOS 12.5) or higher with Xcode 14.1 or higher
 
 For GitHub Build (on a browser with any computer – no Mac required): You must build the jon-b-m bdb branch.
 
-## Smartphone requirements
+### Smartphone requirements
 All iPhones which support iOS 15.1 and up.
 
-## Simulators
+### Simulators
 Start with FreeAPS X on your phone and use the simulated pump and simulated CGM
 Or you can read your actual CGM from your Nightscout site and control a simulated pump
 Get a feel for the layout of menus and decide if you want to continue
 Note – you can leave Loop 3 on the same phone controlling your actual pump and reading the same CGM – the two apps are distinct from each other
 
-## Supported pumps
+### Supported pumps
 FreeAPS X uses modified rileylink_ios and OmniBLE libraries to control an insulin pump, thus supporting the same pump list as Loop:
 
 - Omnipod DASH pods (Bluetooth enabled, no RileyLink needed)
