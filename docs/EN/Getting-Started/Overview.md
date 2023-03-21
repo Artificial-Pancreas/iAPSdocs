@@ -1,9 +1,11 @@
 # Overview
 iAPS (formerly FreeAPS X (FAX)) is an artificial pancreas system that is based on the [OpenAPS](https://openaps.readthedocs.io/en/latest) (oref1) algorithm that runs on an iPhone (iOS 15.1 or newer). This is a completely different algorithm than the algorithm used by Loop (and the FreeAPS fork of Loop).
 
-## What is the state of FAX?
+## What is the state of iAPS?
 
 The initial implementation of FAX, by Ivan Valkou, was halted in spring 2022. That branch is stable and still in use, but not all features listed below are available in his [repository](https://github.com/ivalkou/freeaps#readme). For example, there is no DASH support or G7 support.
+
+In March 2023, [Jon B Martensson](https://github.com/Jon-b-m) ported his efforts from his bdb branch over to an evolution of Ivan's original work now to be called iAPS. Efforts from [Pierre Avous](https://github.com/avouspierre) incorporated Dexcom G7 and brought iAPS in line with newly introduced Loop 3 dependecies. Jon is the lead developer of iAPS and has several other collaborators involved in the project.
 
 You should not attempt to use any version of iAPS unless you have a clear understanding of how DIY artificial pancreas systems work, are comfortable with the potential need to rebuild. You should be willing and able to provide detailed troubleshooting information to the developers when you have a problem.
 
