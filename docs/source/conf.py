@@ -47,6 +47,10 @@ myst_heading_anchors = 3
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+from recommonmark.parser import CommonMarkParser
+
+source_suffix = ['.rst', '.md']
+
 source_parsers = {
   '.md': CommonMarkParser,
 }
