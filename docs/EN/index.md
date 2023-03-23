@@ -18,12 +18,7 @@ iAPS is built by a volunteer community. If you are interested in helping as a pr
 
 You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
 
-```{toctree}
-:caption: Change language
-
-Change language <./changelanguage.md>
-
-```
+(index-Getting-Started)=
 
 ```{toctree}
 :caption: Getting started
