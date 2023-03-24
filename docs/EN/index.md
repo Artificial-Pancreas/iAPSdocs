@@ -56,12 +56,12 @@ Troubleshoot <./operate/troubleshoot.md>
 ```{toctree}
 :caption: Settings
 
-settings/configuration/*
-settings/configuration/concepts/*
-settings/configuration/preferences/*
-settings/configuration/devices/*
-settings/configuration/services/*
-settings/*
+./settings/configuration/*
+./settings/configuration/concepts/*
+./settings/configuration/preferences/*
+./settings/configuration/devices/*
+./settings/configuration/services/*
+./settings/*
 
 
 ```
