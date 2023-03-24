@@ -56,11 +56,6 @@ Troubleshoot <./operate/troubleshoot.md>
 ```{toctree}
 :caption: Settings
 
-Basic Configuration <./settings/configuration/*>
-Concepts <./settings/configuration/concepts/*>
-Preferences <./settings/configuration/preferences/*>
-Devices <./settings/configuration/devices/*>
-Services <./settings/configuration/services/*>
 ./settings/*
 
 
