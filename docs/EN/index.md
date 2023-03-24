@@ -55,14 +55,12 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```{toctree}
 :caption: Settings
-:maxdepth: 2
-:glob:
 
-./settings/configuration/*
-./settings/configuration/concepts/*
-./settings/configuration/preferences/*
-./settings/configuration/devices/*
-./settings/configuration/services/*
+Basic Configuration <./settings/configuration/*>
+Concepts <./settings/configuration/concepts/*>
+Preferences <./settings/configuration/preferences/*>
+Devices <./settings/configuration/devices/*>
+Services <./settings/configuration/services/*>
 ./settings/*
 
 
