@@ -57,7 +57,7 @@ Troubleshoot <./operate/troubleshoot.md>
 :caption: Settings
 :glob:
 
-/settings/*
+settings/*
 
 ```
 
