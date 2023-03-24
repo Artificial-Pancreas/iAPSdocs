@@ -1,0 +1,2 @@
+# Apple Health
+Optional. Enabling this allows iAPS to store information related to blood sugar readings, insulin dosage and carbohydrates. Useful for those who like to analyse their data with TidePool.
