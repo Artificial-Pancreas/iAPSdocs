@@ -55,10 +55,13 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```{toctree}
 :caption: Settings
-:maxdepth: 4
 :glob:
 
-Interface <./resources/alternative.md>
+settings/configuration/*
+settings/configuration/concepts/*
+settings/configuration/preferences/*
+settings/devices/*
+settings/services/*
 
 Loop <./settings/loop.md>
 
