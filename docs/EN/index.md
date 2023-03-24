@@ -57,13 +57,7 @@ Troubleshoot <./operate/troubleshoot.md>
 :caption: Settings
 :glob:
 
-Basic Configuration <./settings/configuration/*>
-Configuration Concepts <./settings/configuration/concepts/*>
-Configuration Preferences <./settings/configuration/preferences/*>
-Devices <./settings/devices/*>
-Services <./settings/services/*>
-
-Loop <./settings/loop.md>
+/settings/*
 
 ```
 
