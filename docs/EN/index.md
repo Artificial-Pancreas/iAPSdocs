@@ -50,3 +50,22 @@ Temp Target <./operate/temptarget.md>
 Troubleshoot <./operate/troubleshoot.md>
 
 ```
+
+(index-Settings)=
+
+```{toctree}
+:caption: Settings
+:glob:
+
+```
+
+(index-resources)=
+
+```{toctree}
+:caption: Resources
+
+Interface <./resources/alternative.md>
+
+Citations <./operate/citations.md>
+
+```
