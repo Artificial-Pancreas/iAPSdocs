@@ -37,3 +37,16 @@ Configure <./Configuration/Configure.md>
 Devices <./Configuration/Devices.md>
 
 ```
+
+(index-operate)=
+
+```{toctree}
+:caption: Operate
+
+Interface <./operate/interface.md>
+
+Temp Target <./operate/temptarget.md>
+
+Troubleshoot <./operate/troubleshoot.md>
+
+```
