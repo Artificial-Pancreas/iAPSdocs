@@ -55,6 +55,7 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```{toctree}
 :caption: Settings
+:maxdepth: 2
 :glob:
 
 ./settings/configuration/*
