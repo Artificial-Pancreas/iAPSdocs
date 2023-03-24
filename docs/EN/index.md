@@ -57,7 +57,7 @@ Troubleshoot <./operate/troubleshoot.md>
 :caption: Settings
 :glob:
 
-Basic Configuration <./settings/concepts/*>
+Basic Configuration <./settings/configuration/*>
 settings/*
 
 
