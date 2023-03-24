@@ -57,7 +57,11 @@ Troubleshoot <./operate/troubleshoot.md>
 :caption: Settings
 :glob:
 
-Basic Configuration </settings/configuration/*>
+settings/configuration/*
+settings/configuration/concepts/*
+settings/configuration/preferences/*
+settings/configuration/devices/*
+settings/configuration/services/*
 settings/*
 
 
