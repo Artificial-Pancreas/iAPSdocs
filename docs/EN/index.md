@@ -55,7 +55,12 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```{toctree}
 :caption: Settings
+:maxdepth: 4
 :glob:
+
+Interface <./resources/alternative.md>
+
+Loop <./settings/loop.md>
 
 ```
 
