@@ -27,7 +27,7 @@ Overview <./Getting-Started/Overview.md>
 
 ```
 
-(index-configuration)=
+(index-Configuration)=
 
 ```{toctree}
 :caption: Configuration
@@ -38,7 +38,7 @@ Devices <./Configuration/Devices.md>
 
 ```
 
-(index-operate)=
+(index-Operate)=
 
 ```{toctree}
 :caption: Operate
@@ -51,18 +51,37 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```
 
-(index-Settings)=
+(index-Settings-Concepts)=
 
 ```{toctree}
-:caption: Settings
+:caption: Settings Concepts
 
 ./settings/configuration/*
 ./settings/configuration/concepts/*
-./settings/configuration/preferences/*
-./settings/configuration/devices/*
-./settings/configuration/services/*
-./settings/*
 
+```
+(index-Settings-Preferences)=
+
+```{toctree}
+:caption: Settings Preferences
+
+./settings/configuration/preferences/*
+
+```
+(index-Settings-Devices)=
+
+```{toctree}
+:caption: Settings Devices
+
+./settings/devices/*
+
+```
+(index-Settings-Services)=
+
+```{toctree}
+:caption: Settings Services
+
+./settings/services/*
 
 ```
 
