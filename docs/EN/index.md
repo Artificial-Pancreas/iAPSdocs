@@ -1,3 +1,5 @@
+#PLEASE NOTE THIS DOCUMENTATION IS A DRAFT ONLY AND SHOULD YET NOT BE FOLLOWED FOR SETTING UP AND OPERATING IAPS!!
+
 # What is iAPS?
 iAPS is a open source artifical pancrease system based on the OpenAPS algorithm. Using your inputted settings, carbohydrates and historical data, it aims to automate insulin delivery to reduce the time spend managing your diabetes. Before starting with iAPS, you should consider alternative commercial options such as the Tandem IQ and Omnipod 5, or other open source applications like Loop and AndroidAPS. iAPS is not approved by any health care authority. You are building and running this system at your own risk.
 
