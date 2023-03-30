@@ -27,6 +27,8 @@ You can also provide support in online support groups by helping them adjust the
 :maxdepth: 2
 
 Overview <./Getting-Started/Overview.md>
+iPhone <./Getting-Started/iphone.md>
+Pump <./Getting-Started/pump.md>
 
 ```
 
