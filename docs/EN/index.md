@@ -24,7 +24,6 @@ You can also provide support in online support groups by helping them adjust the
 
 ```{toctree}
 :caption: Overview
-:maxdepth: 2
 
 Overview <./Getting-Started/Overview.md>
 iPhone <./Getting-Started/iphone.md>
