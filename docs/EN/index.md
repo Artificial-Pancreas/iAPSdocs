@@ -25,9 +25,9 @@ You can also provide support in online support groups by helping them adjust the
 ```{toctree}
 :caption: Overview
 
-Overview <./Getting-Started/Overview.md>
-iPhone <./Getting-Started/iphone.md>
-Pump <./Getting-Started/pump.md>
+./Getting-Started/Overview.md>
+./Getting-Started/iphone.md>
+./Getting-Started/pump.md>
 
 ```
 
@@ -36,9 +36,8 @@ Pump <./Getting-Started/pump.md>
 ```{toctree}
 :caption: Configuration
 
-Configure <./Configuration/Configure.md>
-
-Devices <./Configuration/Devices.md>
+./Configuration/Configure.md
+./Configuration/Devices.md
 
 ```
 (index-Settings-Basics)=
