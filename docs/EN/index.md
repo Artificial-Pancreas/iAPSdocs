@@ -18,10 +18,11 @@ iAPS is built by a volunteer community. If you are interested in helping as a pr
 
 You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
 
-(index-Getting-Started)=
+(index-Overview)=
 
 ```{toctree}
-:caption: Getting started
+:caption: Overview
+:maxdepth: 2
 
 Overview <./Getting-Started/Overview.md>
 
@@ -37,11 +38,48 @@ Configure <./Configuration/Configure.md>
 Devices <./Configuration/Devices.md>
 
 ```
+(index-Settings-Basics)=
+
+```{toctree}
+:caption: Settings Basics
+
+./settings/configuration/autotune.md
+./settings/configuration/basalprofile.md
+./settings/configuration/carbratios.md
+./settings/configuration/insulinsensitivites.md
+./settings/configuration/pumpsettings.md
+./settings/configuration/targetranges.md
+./settings/devices/cgm.md
+./settings/devices/pump.md
+./settings/services/applehealth.md
+./settings/services/fatprotein.md
+./settings/services/nightscout.md
+./settings/services/notifications.md
+
+```
+
+(index-Settings-Advanced)=
+
+```{toctree}
+:caption: Settings Advanced
+
+./settings/configuration/concepts/autosens-dynamic.md
+./settings/configuration/concepts/sigmoid.md
+./settings/configuration/concepts/asmb-uam.md
+./settings/configuration/preferences/dynamicsettings.md
+./settings/configuration/preferences/freeapsx.md
+./settings/configuration/preferences/mainsettings.md
+./settings/configuration/preferences/othersettings.md
+./settings/configuration/preferences/smbsettings.md
+./settings/configuration/preferences/targetsettings.md
+
+```
 
 (index-Operate)=
 
 ```{toctree}
 :caption: Operate
+:maxdepth: 2
 
 Interface <./operate/interface.md>
 
@@ -51,39 +89,6 @@ Troubleshoot <./operate/troubleshoot.md>
 
 ```
 
-(index-Settings-Concepts)=
-
-```{toctree}
-:caption: Settings Concepts
-
-./settings/configuration/*
-./settings/configuration/concepts/*
-
-```
-(index-Settings-Preferences)=
-
-```{toctree}
-:caption: Settings Preferences
-
-./settings/configuration/preferences/*
-
-```
-(index-Settings-Devices)=
-
-```{toctree}
-:caption: Settings Devices
-
-./settings/devices/*
-
-```
-(index-Settings-Services)=
-
-```{toctree}
-:caption: Settings Services
-
-./settings/services/*
-
-```
 
 (index-resources)=
 
