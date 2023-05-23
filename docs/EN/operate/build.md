@@ -1,6 +1,8 @@
-# Build iAPS with Script
+#Build
+
+## Build iAPS with Script
 This section here will outline the steps to build with Loop N Learn script
 
 
-# Build iAPS with GitHub
+## Build iAPS with GitHub
 This section here will outline the steps to build with GitHub
