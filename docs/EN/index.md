@@ -82,7 +82,6 @@ You can also provide support in online support groups by helping them adjust the
 
 ```{toctree}
 :caption: Operate
-:maxdepth: 2
 
 Build <./operate/build.md>
 
