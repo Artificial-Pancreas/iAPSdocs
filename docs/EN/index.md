@@ -84,6 +84,8 @@ You can also provide support in online support groups by helping them adjust the
 :caption: Operate
 :maxdepth: 2
 
+Build <./operate/build.md>
+
 Interface <./operate/interface.md>
 
 Temp Target <./operate/temptarget.md>
