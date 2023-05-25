@@ -132,8 +132,7 @@ If you prefer to use the command line interface, skip ahead to [Update iAPS with
 
 ### Update iAPS with Source Control
 
-.. note::
-   Released code is found in the  `main` branch. These figures show the older name of `master` rather than `main`. 
+**Note** Released code is found in the  `main` branch. These figures show the older name of `master` rather than `main`. 
 
 Open Xcode. If your iAPS (FreeAPS) workspace is not already open for you, you will probably find it in the recent projects as shown in the graphic below. You can also pull down the Xcode menu for `File`, select `Open Recent` and find your workspace.
 
