@@ -39,6 +39,7 @@ You can also provide support in online support groups by helping them adjust the
 
 ./Configuration/Configure.md
 ./Configuration/Devices.md
+./Configuration/transition-qa.md
 
 ```
 (index-Settings-Basics)=
