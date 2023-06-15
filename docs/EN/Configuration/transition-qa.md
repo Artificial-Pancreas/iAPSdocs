@@ -79,7 +79,7 @@ The iAPS algorithm does not consider future carbs. What does this mean? The algo
 
 iAPS does consider carbs, but not until they're actually absorbed and part of Carbs On Board (COB). But even then, iAPS will not give you any extra insulin automatically unless BG is rising. You could enter a million carbs in the future, and iAPS would not give you any SMB's unless it's needed.
 
-> So what's the mealtime stragety then?
+> So what's the mealtime strategy then?
 
 Here's the recommendation:
 
