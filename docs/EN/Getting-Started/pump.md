@@ -103,15 +103,13 @@ Finding a compatible Medtronic pump is probably the most difficult part for most
 
 * Ask at a local JDRF chapter meeting if someone has an old backup pump they'd be willing to donate to you.  
 
-* Join diabetic supply groups on Facebook; both for-trade and for-sale groups.  
+* Join diabetic supply groups on Facebook; both for-trade and for-sale groups. [Looping in a time of covid](https://www.facebook.com/groups/1087611668259945/) is a Facebook group focused on DIY looping devices and supplies. Be sure to read their rules if you join.
 
 * Check Craigslist often and be willing to expand your search area to include larger cities.
 
 * Check out the **HelpAround, NextDoor, OfferUp, and/or LetGo** apps for pumps.
 
-* Search [Medwow](http://medwow.com) for used Medtronic pumps.
-
-Medwow has been fairly frustrating for most people; poor response rate and high prices.  The most success appears to come from either one-on-one discussions with fellow diabetics/doctors or using apps (Craigslist, NextDoor, LetGo, HelpAround).  If you are using Craigslist, you may wish to use an app on your iPhone to make the searching easier.  There are apps to search multiple cities at once for your keywords and set up alerts.
+The most success appears to come from either one-on-one discussions with fellow diabetics/doctors or using apps (Craigslist, NextDoor, LetGo, HelpAround).  If you are using Craigslist, you may wish to use an app on your iPhone to make the searching easier.  There are apps to search multiple cities at once for your keywords and set up alerts.
 
 
 ### Safe Purchasing
