@@ -1,20 +1,20 @@
 ## Compatible Pump
 
-!!! info "Time Estimate"
-    - Omnipod users: 3 seconds to remember which PDM you've been using.
-    - Medtronic users: 10 minutes to put a battery in and look at model and firmware
-    - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
+Time Estimate
+    * Omnipod users: 3 seconds to remember which PDM you've been using.
+    * Medtronic users: 10 minutes to put a battery in and look at model and firmware
+    * Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
 
-!!! abstract "Summary"
-    - If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
-    - If you use [Omnipod](#omnipod-pumps) - check which kind
+Summary
+    * If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
+    * If you use [Omnipod](#omnipod-pumps) - check which kind
 
-!!! question "FAQs"
-    - **"How can I find a compatible Medtronic pump?"** Refer to [Finding a Medtronic Pump](#finding-a-medtronic-pump)
-    - **"What are the differences between Medtronic pump models?"** This question is also answered in the [Extra Details](#extra-details-on-medtronic) section
-    - **"But what about the other types of pumps?"** No other pumps work with iAPS at this time  
-        - There are other open-source closed loop options such as [AAPS: Android Artificial Pancreas System](https://androidaps.readthedocs.io/en/latest/index.html) and [OpenAPS](https://openaps.readthedocs.io/en/latest/) that support other pumps.
-    - **"Can I change the firmware of my Medtronic pump?"** No.
+FAQs
+    * **"How can I find a compatible Medtronic pump?"** Refer to [Finding a Medtronic Pump](#finding-a-medtronic-pump)
+    * **"What are the differences between Medtronic pump models?"** This question is also answered in the [Extra Details](#extra-details-on-medtronic) section
+    * **"But what about the other types of pumps?"** No other pumps work with iAPS at this time  
+        * There are other open-source closed loop options such as [AAPS: Android Artificial Pancreas System](https://androidaps.readthedocs.io/en/latest/index.html) and [OpenAPS](https://openaps.readthedocs.io/en/latest/) that support other pumps.
+    * **"Can I change the firmware of my Medtronic pump?"** No.
 
 ## Pumps Compatible with iAPS
 
@@ -36,30 +36,22 @@ If you have one of the pumps listed above, you are good to go on iAPS! Congrats!
 
 ## Extra Details on Medtronic
 
-![insulin pumps](img/pump.png)
-
 There are a number of Medtronic insulin pumps manufactured between 2006 – 2012 which are iAPS compatible.  Compatibility has two requirements: (1) pump model and (2) firmware.
 
 ### Medtronic Pump Model
 
 To determine your pump model, look at the backside of your pump.  There should be a sticker on the underside of the pump.  On the right-hand side of the sticker, it says REF MMT-XXXXXX
 
-![Pump](img/pump_model.jpg)
-
-!!! note ""
-
-    - MMT ---> Pump Manufacturer Model (MiniMed Medtronic)
-    - 722 ---> Pump Model Number
-    - NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)
-    - S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)
+    * MMT ---> Pump Manufacturer Model (MiniMed Medtronic)
+    * 722 ---> Pump Model Number
+    * NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)
+    * S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)
 
 Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect iAPS compatibility.
 
 ### Medtronic Pump Firmware
 
 A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows iAPS to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
-
-!!! note ""
 
     The firmware on all 515/715 and 522/722 model Medtronic pumps is compatible with iAPS. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.
 
@@ -73,13 +65,11 @@ To find your pump’s firmware you will need to power it on. If the pump has not
 
 If the pump has been active recently or has a reservoir installed, follow these steps:
 
-1. Press the ![img/esc.png](img/esc.png){width="40"} button on your pump.  
+1. Press the left/esc button on your pump.  
 
-2. Scroll down with the ![img/light_button.png](img/light_button.png){width="40"} button to the bottom of the status display.  
+2. Scroll down with the down/lightbulb button to the bottom of the status display.  
 
 3. Read the bottom line of the display.
-
-![Firmware](img/pump_firmware.png)
 
 ### Medtronic Pump Differences
 
@@ -120,7 +110,6 @@ Finding a compatible Medtronic pump is probably the most difficult part for most
 
 Medwow has been fairly frustrating for most people; poor response rate and high prices.  The most success appears to come from either one-on-one discussions with fellow diabetics/doctors or using apps (Craigslist, NextDoor, LetGo, HelpAround).  If you are using Craigslist, you may wish to use an app on your iPhone to make the searching easier.  There are apps to search multiple cities at once for your keywords and set up alerts.
 
-![Craigslist](img/craigslist.png)
 
 ### Safe Purchasing
 
@@ -150,7 +139,7 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 ## Omnipod Pumps
 
-!!! warning "Reminder and Disclaimer"
+Reminder and Disclaimer
 
     The use of Omnipod pumps with iAPS is not supported by Insulet, although they are aware it is happening. Do not call Insulet asking for help with your iAPS build, setup, or operation. You are fully responsible for your use of iAPS and do so at your own risk. Please read these documents and familiarize yourself with iAPS before using.
 
