@@ -156,19 +156,11 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 ### Omnipod Eros
 
-Eros pods were launched in 2013 and continue to be sold by Insulet. As far as we know, there have been no plans or timelines announced for the discontinuation of Eros pods for existing customers. Insulet doesn't specifically call these "Eros" anymore, they just use the term "omnipod system". For clarity, from [Insulet's webpage](https://www.myomnipod.com/about):
-
-Eros system has that PDM we all recognize from the last several years.
-
-![img/eros.png](img/eros.png){width="750"}
-{align="center"}
+Eros pods were launched in 2013 and continue to be sold by Insulet. They will stop being available in the US at the end of 2023, but will continue to be obtainable in other countries for now. Eros pods are also referred to as "Omnipod System", "Omnipod Classic", or "Gen3".
 
 ### Omnipod DASH
 
-Insulet has announced their DASH system as an eventual replacement for the Eros/Omnipod System. The DASH system has the newer, slimmer locked-android PDM and built-in BLE communications in the pod, so there is no requirement for a RileyLink compatible device. 
-
-![img/dash.png](img/dash.png){width="750"}
-{align="center"}
+The DASH pods were launched in 2019 and use bluetooth instead of radiowaves, so they conndon't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
 
 ### Omnipod 5
 
