@@ -86,7 +86,7 @@ If you are in the position of being able to shop around for different pump model
 
 **500 vs 700**:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
 
-**x15/x22 vs x23/x54**:  The differences noteworthy between the x15 and x22 pumps versus the x23 and x54 series pumps are:
+**x15/x22 vs x23/x54**:  The noteworthy differences between the x15 and x22 pumps versus the x23 and x54 series pumps are:
 
 * The x23/x54 pumps will allow for smaller insulin deliveries in certain situations, if the smaller scroll rate is selected in the Bolus>Setup>Scroll Rate menu.  **iAPS will have the insulin delivery automatically rounded by the pump to the units available in the pump model, and any smaller adjustments (to make up for the rounding) will be made through iAPS’s use of temp basals.  If you want the smaller increments of basal rates, you can still enter those values in the iAPS app's settings and iAPS will use those values for the purposes of insulin delivery calculations.**
 
@@ -158,7 +158,7 @@ Eros pods were launched in 2013 and continue to be sold by Insulet. They will st
 
 ### Omnipod DASH
 
-The DASH pods were launched in 2019 and use bluetooth instead of radiowaves, so they conndon't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
+The DASH pods were launched in 2019 and use bluetooth instead of radiowaves, so they don't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
 
 ![dash](img/dash.png)
 
