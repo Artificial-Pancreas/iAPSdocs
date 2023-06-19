@@ -1,20 +1,23 @@
 ## Compatible Pump
 
 Time Estimate
-    * Omnipod users: 3 seconds to remember which PDM you've been using.
-    * Medtronic users: 10 minutes to put a battery in and look at model and firmware
-    * Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
+
+* Omnipod users: 3 seconds to remember which PDM you've been using.
+* Medtronic users: 10 minutes to put a battery in and look at model and firmware
+* Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
 
 Summary
-    * If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
-    * If you use [Omnipod](#omnipod-pumps) - check which kind
+
+* If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
+* If you use [Omnipod](#omnipod-pumps) - check which kind
 
 FAQs
-    * **"How can I find a compatible Medtronic pump?"** Refer to [Finding a Medtronic Pump](#finding-a-medtronic-pump)
-    * **"What are the differences between Medtronic pump models?"** This question is also answered in the [Extra Details](#extra-details-on-medtronic) section
-    * **"But what about the other types of pumps?"** No other pumps work with iAPS at this time  
-        * There are other open-source closed loop options such as [AAPS: Android Artificial Pancreas System](https://androidaps.readthedocs.io/en/latest/index.html) and [OpenAPS](https://openaps.readthedocs.io/en/latest/) that support other pumps.
-    * **"Can I change the firmware of my Medtronic pump?"** No.
+
+* **"How can I find a compatible Medtronic pump?"** Refer to [Finding a Medtronic Pump](#finding-a-medtronic-pump)
+* **"What are the differences between Medtronic pump models?"** This question is also answered in the [Extra Details](#extra-details-on-medtronic) section
+* **"But what about the other types of pumps?"** No other pumps work with iAPS at this time  
+   * There are other open-source closed loop options such as [AAPS: Android Artificial Pancreas System](https://androidaps.readthedocs.io/en/latest/index.html) and [OpenAPS](https://openaps.readthedocs.io/en/latest/) that support other pumps.
+* **"Can I change the firmware of my Medtronic pump?"** No.
 
 ## Pumps Compatible with iAPS
 
