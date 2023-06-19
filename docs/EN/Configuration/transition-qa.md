@@ -6,8 +6,8 @@ In this section of the documentation we'll try to explain the differences from a
 
 --
 
-## Coming from Android APS
-AndroidAPS and iAPS are both based on the same algoritm (Oref) and the same base system (Artificial Pancreas System, APS). While there are several differences between AndroidAPS and iAPS, the main algoritm is the same, 
+## Coming from AndroidAPS
+AndroidAPS (AAPS) and iAPS are both based on the same algoritm (Oref) and the same base system (Artificial Pancreas System, APS). While there are several differences between AndroidAPS and iAPS, the main algoritm is the same, 
 meaning you can expect iAPS to behave the same way AndroidAPS does. iAPS has some additional features such as Dynamic ISF and Dynamic IC, which AndroidAPS does not have in main branch at the moment. These features are very handy 
 once you get the settings right.
 
@@ -66,8 +66,8 @@ If any of those sound familiar, you should consider a switch. Again, note that y
 2. With UAM and SMB active and properly configured, iAPS will make any necessary corrections on its own. There is no need to add "fake carbs" to make iAPS give insulin, like many Loop users are used to.
 3. Many diabetics find that they need more insulin when BG is high. Loop uses constant ISF and IC ratios, based on time-of-day. Because of that constraint, it is hard for Loop to give enough insulin when BG is already high. There are some Loop Patches that attempt to fix this, but these patches don't work for everyone. With dynamic ISF and dynamic IC enabled and properly configured, iAPS will give enough insulin to get those highs down, without user interaction. More aggressive settings might lead to a low. With less aggressive settings, it will take iAPS some time to get BG back in range. The key is in getting these settings right.
 4. Properly configured, iAPS will not give you insulin if you don't need it. A typical issue with Loop is that it stops delivering insulin when BG is falling, and then gives insulin from the "negative IOB" once BG starts rising again. For some users, this is too much insulin and leads to recurring low. Properly configured, iAPS will not overcompensate for the rapid BG rise after a low.
-5. Exercise is good for everyone, including people with TxD. People with insulin dependent diabetes often struggle with lows during exercise and highs after. iAPS has a built-in exercise mode that will reduce basal, ISF and IC whenever you set a higher temporary BG target. iAPS also has Profile Presets that can help get the right amount of insulin during exercise.
-6. Illness. Menstrual cycle. Lazy days. Active days. Home office days. These are situations where the overall insulin need is different from "normal". iAPS has Profile Presets that can be used to change basal rate, ISF, IC and target BG in a very easy way. Presets can have a timer too, switching back to normal profile when the preset time is done.
+5. Exercise is good for everyone, including people with diabetes. People with insulin dependent diabetes often struggle with lows during exercise and highs after. iAPS has a built-in exercise mode that will reduce basal, ISF and IC whenever you set a higher temporary BG target. iAPS also has Profile Presets that can help get the right amount of insulin during exercise.
+6. Illness. Menstrual cycle. Lazy days. Active days. Home office days. These are situations where the overall insulin need is different from "normal". iAPS has Profile Presets that can be used to change basal rate, ISF, IC and target BG in a very easy way. Presets can also have a timer to switch back to the normal profile when the preset timer is done.
 
 ### What's all that talk about changing the way I think?
 
@@ -85,7 +85,7 @@ Here's the recommendation:
 
 1. Use the bolus calculator before you eat. Enter carbs (and fat and protein if you want). Look at the recommended bolus and tap the info button if you don't agree with the recommendation. 
 2. Change the recommendation if you want to, and then bolus. If the recommendation is way off, you should probably check your settings. Remeber that the recommendation is based on your settings, including the "Recommended bolus percentage".
-3. Depending on type of insulin and your sensitivity, you should consider doing this some minutes before eating. You do not need to adjust carb timestamp when pre-bolusing.
+3. Depending on type of insulin and your sensitivity, you should consider doing this some minutes before eating. You do not need to adjust carb timestamp to the actual time you plan on eating, you can just keep it at the time you announced the meal and pre-bolused.
 4. Enjoy your meal. iAPS will in most cases set a temporary low/zero basal.
 5. If iAPS detects BG rising faster or more than expected, it will give more insulin (SMB) depending on settings.
 6. If iAPS detects BG falling it will keep the low/zero temporary basal.
