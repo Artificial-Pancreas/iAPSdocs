@@ -39,11 +39,15 @@ If you have one of the pumps listed above, you are good to go on iAPS! Congrats!
 
 ## Extra Details on Medtronic
 
+![pump](img/pump.png)
+
 There are a number of Medtronic insulin pumps manufactured between 2006 – 2012 which are iAPS compatible.  Compatibility has two requirements: (1) pump model and (2) firmware.
 
 ### Medtronic Pump Model
 
 To determine your pump model, look at the backside of your pump.  There should be a sticker on the underside of the pump.  On the right-hand side of the sticker, it says REF MMT-XXXXXX
+
+![pump_model](img/pump_model.jpg)
 
     * MMT ---> Pump Manufacturer Model (MiniMed Medtronic)
     * 722 ---> Pump Model Number
@@ -68,11 +72,13 @@ To find your pump’s firmware you will need to power it on. If the pump has not
 
 If the pump has been active recently or has a reservoir installed, follow these steps:
 
-1. Press the left/esc button on your pump.  
+1. Press the ![esc](img/esc.png) button on your pump.  
 
-2. Scroll down with the down/lightbulb button to the bottom of the status display.  
+2. Scroll down with the ![light](img/light_button.png) button to the bottom of the status display.  
 
 3. Read the bottom line of the display.
+
+![pump_firmware](img/pump_firmware.png)
 
 ### Medtronic Pump Differences
 
@@ -148,9 +154,13 @@ Reminder and Disclaimer
 
 Eros pods were launched in 2013 and continue to be sold by Insulet. They will stop being available in the US at the end of 2023, but will continue to be obtainable in other countries for now. Eros pods are also referred to as "Omnipod System", "Omnipod Classic", or "Gen3".
 
+![eros](img/eros.png)
+
 ### Omnipod DASH
 
 The DASH pods were launched in 2019 and use bluetooth instead of radiowaves, so they conndon't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
+
+![dash](img/dash.png)
 
 ### Omnipod 5
 
