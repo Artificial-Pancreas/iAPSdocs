@@ -47,8 +47,3 @@ After entering carbs, a mealtime bolus will not be suggested or delivered.
 
 ## Display HR on Watch
 Displays your current heart rate on your iWatch iAPS app
-
-## Display Statistics
-Visual: Displays statistics including Time in range (TIR), coefficent of variance (CV) and estimated A1c at the bottom of the main screen. 
-
-For advanced users: Enabling this settings also allows iAPS to sync your statistics to the Nightscout API.
