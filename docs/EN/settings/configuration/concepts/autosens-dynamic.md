@@ -67,7 +67,7 @@ If you find your CR changes dramatically day to day and iAPS is not providing ad
     
 
 ## Adjust Basal
-Adjust basal replaces autosens's formula for adjusting basal rates, with one dependent on total daily dose (TDD) of insulin. Turn on this setting to give basal adjustments more agility. Keep this setting off if you basal needs are not highly variable.
+Adjust basal replaces autosens's formula for adjusting basal rates, with one dependent on total daily dose (TDD) of insulin. Turn on this setting to give basal adjustments more agility. Keep this setting off if your basal needs are not highly variable.
 
 ### Advanced Information
 Normally a new basal rate is set by autosens:
