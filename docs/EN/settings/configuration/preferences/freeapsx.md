@@ -3,7 +3,7 @@
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 
 ## Glucose Units
-Allows you to toggle between mmol/L and mg/dl blood glucose units.
+Allows you to toggle between mmol/L and mg/dL blood glucose units.
 
 ## Remote Control
 Allows for remote control of FAX using Nightscout.
