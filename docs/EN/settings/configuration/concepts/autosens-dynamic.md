@@ -34,20 +34,21 @@ Autosens determines an ratio (autosens.ratio) and alters your ISF in the followi
 
 - New ISF = (profile set ISF)/(autosens.ratio)
 
-Example: Bill has an ISF of 3 in his settings. The system finds Bill has been more resistant to insulin lately and needs to increase his insulin. It calculates Bill to have an autosens.ratio of 1.1 (note that a larger autosens.ratio results in you having a lower, more aggressive ISF):
+Example: Bill has an ISF of 3 mmol/L/U (54 mg/dL/U) in his settings. The system finds Bill has been more resistant to insulin lately and needs to increase his insulin. It calculates Bill to have an autosens.ratio of 1.1 (note that a larger autosens.ratio results in you having a lower, more aggressive ISF):
 
 When autosens goes to adjust the ISF, it does the following calculation:
 
-- 3 UL/mmol / 1.1 = 2.73 UL/mmol
+- 3 mmol/L/U ÷ 1.1 = 2.73 mmol/L/U
+- 54 mg/dL/U ÷ 1.1 = 49 mg/dL/U
 
-Bill is now temporarily set to have an ISF of 2.73.
+Bill is now temporarily set to have an ISF of 2.73 mmol/L/U (49 mg/dL/U).
 
-Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternative formula to calculate the autosens.ratio for ISF adjustments:
+Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternative formula to calculate the autosens.ratio for ISF adjustments. Note this formula uses mg/dL and not mmol/L:
 
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New ISF = (profile set ISF)/(autosens.ratio)
 
-This formula takes into consideration your profile set ISF (profile.sens in mg/dl) current blood glucose (BG in mg/dl), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
+This formula takes into consideration your profile set ISF (profile.sens in mg/dL) current blood glucose (BG in mg/dL), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
 
 [Click here to view a graph despicting the logarithmic formula](https://www.desmos.com/calculator/mzuopy9vbl)
 

@@ -85,8 +85,9 @@ Recommended to keep this value at default unless you know what you are doing.
 ## Noisy CGM Target Multiplier
 If iAPS detects that CGM data has been noisy, it will increase your target blood sugar by a set fraction to avoid you getting low. Default is 30% higher (1.3)
 
-Example: Bill's iAPS has calculated a blood glucose target of 90 mg/dl (5 mmol/L). But Bill has a noisy sensor. He has set his "Noisy CGM Target Multiplier" to 1.3. iAPS will thereby use a target bg of:
+Example: Bill's iAPS has calculated a blood glucose target of 5 mmol/L (90 mg/dL). But Bill has a noisy sensor. He has set his "Noisy CGM Target Multiplier" to 1.3. iAPS will thereby use a target bg of:
 
+- 5 mmol/L * 1.3 = 6.5 mmol/L
 - 90 mg/dL * 1.3 = 117 mg/dL
 
 Recommended to keep this value at default of 1.3.
