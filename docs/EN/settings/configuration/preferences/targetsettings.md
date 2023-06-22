@@ -51,12 +51,3 @@ See openAPS code for more information. The formula used is:
 Example: Bill has a halfBasalTarget of 160 and has set a temporary target of 120 for his upcoming exercise. Therefore only 75% of his scheduled basal rate will be provided:
 
 - (160 - 100)/((160 - 100) + (120 - 100)) = 0.75
-
-## Wide BG Target Range
-By default iAPS ignores your upper value when setting a target range. 
-
-Example: Bill has set a target range of 5.5-6.0. iAPS internally sets it at 5.5-5.5.
-
-This setting allows you to change that behaviour so iAPS targets a desired range instead of your lower value.
-
-Note: This feature is likely to be deprecated from the OpenAPS algorithm soon.
