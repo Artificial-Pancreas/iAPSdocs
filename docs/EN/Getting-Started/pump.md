@@ -9,7 +9,7 @@ Time Estimate
 Summary
 
 * If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
-* If you use [Omnipod](#omnipod-pumps) - check which kind
+* If you use [Omnipod](#omnipod-pumps) - check if you have Eros or Dash
 
 FAQs
 
