@@ -1,24 +1,8 @@
-## Compatible iPhone or iPod touch
-
-!!! info "Time Estimate"
-    - 5 minutes, to check your device and iOS
-    - 20 minutes, if need to update your compatible device to a new iOS
-    - 10 minutes, if you need to order a [compatible device](iphone.md#compatible-devices) from Apple website
-    - 0 minutes, if you own an Android device and won't buy Apple products; check out [AndroidAPS Documention](https://androidaps.readthedocs.io/en/latest/)
-
-!!! abstract "Summary"
-    - Check your iPhone/iPod touch against the device compatibility list
-        * For all devices, the newest iOS is strongly recommended
-    - Make sure the phone has good battery life
-    - Turn off automatic updates
-
-!!! question "FAQs"
-    - **"Can I use an Android?"** No. Check out [AndroidAPS Documention](https://androidaps.readthedocs.io/en/latest/).
-    - **"Does my iPhone need a cell plan?"** No. iAPS works using communication on your phone with your CGM and your pump; no internet connection required. However, if access to Dexcom Follow or Nightscout monitoring of iAPS is a priority, then a cell plan may be desired.
+## Compatible iPhone
 
 ## Which Devices Are Compatible?
 
-iAPS requires a relatively recent iPhone. The faster the phone, the better for the algorithm. You need a minimum version of the mobile operating software, called the phone's "iOS", to be installed on your iPhone or iPod touch. iAPS is compatible with iPhones running on iOS 15.1 or newer.
+iAPS requires a relatively recent iPhone. The faster the phone, the better for the algorithm and battery life. You need a minimum version of the mobile operating software, called the phone's "iOS", to be installed on your iPhone. iAPS is compatible with iPhones running on iOS 15.1 or newer.
 
 ### Compatible Devices
 
@@ -33,11 +17,11 @@ These devices are compatible with iOS 15.1 and newer iOS.
 - iPhone SE (3rd generation or later model; 2022 first release)
 - iPhone SE (2nd generation; 2020 first release)
 
-These devices are compatible with iAPS, which requires iOS 15.1, but cannot be upgraded to iOS 16.
+## Apple Watch
 
-- iPhone 7, all variants
-- iPhone 6s, all variants - but note the "s"
-- iPhone SE (1st generation; 2016 first release)
+iAPS has a companion app for the Apple Watch. The companion app will show the loop status, and current insulin and carbs onboard. It will also let you add carbs, do a manual bolus and set a temporary target. The companion app only serves as a remote control for the iPhone app; connection to CGM and pump is still done through your iPhone and you will have to bring it with you.
+
+Apple Watch Series 3 and newer are supported. Newer versions of the Apple Watch have better battery life and support always-on display.
 
 ## Find Your Device's iOS
 
@@ -45,12 +29,11 @@ Your phone's iOS version can be found under the phone Settings -> General -> Abo
 
 ![phone current iOS display](img/ios.svg){width="300"}
 
-
 ### Developer Mode - Mac Build
 
-With iOS 16 and watchOS 9, Apple added a feature. If you want to know more, click on this [Apple Link about Developer Mode](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
+With iOS 16 and watchOS 9, Apple added a feature called "Developer Mode". Your iPhone and Apple Watch need to have this feature enabled in order to allow installation of iAPS. If you want to know more, click on this link: [Apple Link about Developer Mode](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
 
-When you build iAPS on your phone from Xcode directly and then transition to or start with iOS 16, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone running watchOS 9. 
+When you build iAPS on your phone from Xcode directly and then transition to or start with iOS 16, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone running watchOS 9.
 
 
 !!! info "Developer Mode with iOS 16, watchOS 9"
@@ -74,11 +57,11 @@ Make sure the battery on your phone is solid. Your phone will become a critical 
 
 ## Turn Off Automatic Updates
 
-Apple provides updates regularly to the iOS.  Often, these updates include critical security patches in addition to improved new features.
+Apple provides updates regularly to the iOS. Often, these updates include critical security patches in addition to improved new features.
 
 ### Why Turn off Automatic Updates?
 
-* Once you accept an iOS phone update, you cannot go backwards
+* Once you accept an iOS update, you cannot go backwards
     * Some iOS updates require updates to Xcode and macOS before people can build iAPS on that device again
     * It is rare, but iOS updates have caused iAPS to stop working until other updates were made and iAPS was rebuilt on that phone
 * Turn off automatic updates so you can choose when to update your phone and avoid being caught without a working iAPS app
