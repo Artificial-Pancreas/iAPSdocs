@@ -38,6 +38,7 @@ You can also provide support in online support groups by helping them adjust the
 :caption: Analyze
 
 ./Analyze/EvaluateBasal.md
+./Analyze/EvaluateCR.md
 
 ```
 
