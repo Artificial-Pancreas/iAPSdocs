@@ -32,6 +32,16 @@ You can also provide support in online support groups by helping them adjust the
 
 ```
 
+(index-Analyze)=
+
+```{toctree}
+:caption: Analyze
+
+./Analyze/EvaluateBasal.md
+./Analyze/EvaluateCR.md
+
+```
+
 (index-Configuration)=
 
 ```{toctree}
