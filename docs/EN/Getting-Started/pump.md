@@ -1,4 +1,4 @@
-## Compatible Pump
+## Compatible Pumps
 
 Time Estimate
 
@@ -9,7 +9,7 @@ Time Estimate
 Summary
 
 * If you have a Medtronic pump, check the [Medtronic Pump Version](#check-medtronic-pump-version) list to ensure compatible model/firmware
-* If you use [Omnipod](#omnipod-pumps) - check which kind
+* If you use [Omnipod](#omnipod-pumps) - check if you have Eros or Dash
 
 FAQs
 
@@ -19,7 +19,7 @@ FAQs
    * There are other open-source closed loop options such as [AAPS: Android Artificial Pancreas System](https://androidaps.readthedocs.io/en/latest/index.html) and [OpenAPS](https://openaps.readthedocs.io/en/latest/) that support other pumps.
 * **"Can I change the firmware of my Medtronic pump?"** No.
 
-## Pumps Compatible with iAPS
+### Pumps Compatible with iAPS
 
 There are three types of pumps compatible with iAPS.
 
@@ -27,7 +27,7 @@ There are three types of pumps compatible with iAPS.
 * [Omnipod Eros pumps](step3.md#omnipod-pumps)
 * [Omnipod DASH pumps](#omnipod-dash)
 
-## Check Medtronic Pump Version
+### Check Medtronic Pump Version
 
 * Medtronic 515 or 715 (any firmware)
 * Medtronic 522 or 722 (any firmware)
@@ -37,13 +37,13 @@ There are three types of pumps compatible with iAPS.
 
 If you have one of the pumps listed above, you are good to go on iAPS! Congrats!
 
-## Extra Details on Medtronic
+### Extra Details on Medtronic
 
 ![pump](img/pump.png)
 
 There are a number of Medtronic insulin pumps manufactured between 2006 – 2012 which are iAPS compatible.  Compatibility has two requirements: (1) pump model and (2) firmware.
 
-### Medtronic Pump Model
+#### Medtronic Pump Model
 
 To determine your pump model, look at the backside of your pump.  There should be a sticker on the underside of the pump.  On the right-hand side of the sticker, it says REF MMT-XXXXXX
 
@@ -56,7 +56,7 @@ To determine your pump model, look at the backside of your pump.  There should b
 
 Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect iAPS compatibility.
 
-### Medtronic Pump Firmware
+#### Medtronic Pump Firmware
 
 A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows iAPS to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
 
@@ -80,7 +80,7 @@ If the pump has been active recently or has a reservoir installed, follow these 
 
 ![pump_firmware](img/pump_firmware.png)
 
-### Medtronic Pump Differences
+#### Medtronic Pump Differences
 
 If you are in the position of being able to shop around for different pump models, there are some slight differences between the iAPS-compatible Medtronic pumps.
 
@@ -99,7 +99,7 @@ If you are in the position of being able to shop around for different pump model
 
 * The x23/x54 series pumps are also faster at delivering boluses greater than 10 units.  On an x23 pump, a 13-unit bolus takes 5:00 minutes to complete.  On an x22 pump, a 13-unit bolus takes 8:40 minutes to complete.
 
-### Finding a Medtronic Pump
+#### Finding a Medtronic Pump
 
 Finding a compatible Medtronic pump is probably the most difficult part for most new iAPS users.  Our suggestions:
 
@@ -118,7 +118,7 @@ Finding a compatible Medtronic pump is probably the most difficult part for most
 The most success appears to come from either one-on-one discussions with fellow diabetics/doctors or using apps (Craigslist, NextDoor, LetGo, HelpAround).  If you are using Craigslist, you may wish to use an app on your iPhone to make the searching easier.  There are apps to search multiple cities at once for your keywords and set up alerts.
 
 
-### Safe Purchasing
+#### Safe Purchasing
 
 If you choose to purchase from a remote or unknown seller, here are some tips for safe purchasing:
 
@@ -140,32 +140,32 @@ Red flags that may indicate a scam:
 
 * Not able to provide new pictures of the pump when requested. Sure they posted some pictures with the ad, but what if they just downloaded them from other people's ads? The seller should be able to furnish a couple of "new" photos at your request. A good one to ask for is the battery and reservoir tops so you can see the condition of those.
 
-### Pump Supplies
+#### Pump Supplies
 
 Medtronic will not typically sell pump supplies directly to customers who have not previously purchased a registered Medtronic pump. Ask your insurance about purchasing pump supplies through a durable medical equipment (DME) provider. Typically, the DME provider will coordinate with your insurance and doctor's office to get the necessary insurance approval and prescriptions for the supplies. If you are brand new to Medtronic infusion sites, you may want to ask for help from friends to try a variety of infusion sets before purchasing a full 90-day supply of any type in particular.
 
-## Omnipod Pumps
+### Omnipod Pumps
 
 Reminder and Disclaimer
 
     The use of Omnipod pumps with iAPS is not supported by Insulet, although they are aware it is happening. Do not call Insulet asking for help with your iAPS build, setup, or operation. You are fully responsible for your use of iAPS and do so at your own risk. Please read these documents and familiarize yourself with iAPS before using.
 
-### Omnipod Eros
+#### Omnipod Eros
 
 Eros pods were launched in 2013 and continue to be sold by Insulet. They will stop being available in the US at the end of 2023, but will continue to be obtainable in other countries for now. Eros pods are also referred to as "Omnipod System", "Omnipod Classic", or "Gen3".
 
 ![eros](img/eros.png)
 
-### Omnipod DASH
+#### Omnipod DASH
 
 The DASH pods were launched in 2019 and use bluetooth instead of radiowaves, so they don't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
 
 ![dash](img/dash.png)
 
-### Omnipod 5
+#### Omnipod 5
 
 iAPS does not support Omnipod 5 pods.
 
-## Next Step: Compatible CGM
+### Next Step: Compatible CGM
 
-Now you are ready to check if you have a [Compatible CGM](step4.md).
+Now you are ready to check if you have a [Compatible CGM](../settings/devices/cgm.md).

@@ -35,9 +35,7 @@ SMBs will be enabled if you had carbs within the last 6 hours to help with meal 
 If you already have "Enable SMB Always" on, this feature is redundent and does not need to be configured.
 
 ## Allow SMB With High Temptarget
-This is a safety limiter that prevents SMBs from occuring when you set a temporary blood glucose target higher than your normal target range. This is useful for users who do not want SMBs and exercise both acting to bring down blood sugar.
-
-This setting limits "Enable SMB Always" as well as all other enable SMB toggles.
+By default, iAPS will not allow SMBs if you have a temporary blood glucose target set above 5.5 mmol/L (100 mg/dL), even if "Enable SMB Always" is toggled on. Toggling this feature on will disable that safety check and not prevent SMBs when a high temporary target is set, as long as SMBs are otherise enabled.
 
 ## Enable SMB With High BG
 This allows SMBs to occur above a certain blood glucose level. Some individuals with variable sensitivity may find that SMBs can cause low blood sugars and rollercoasters when near their target. 
