@@ -1,7 +1,8 @@
 # Basal Profile
-:::{important} Highlights
-    - Basal profile can be transferred from your pump
-    - Adjust your basal profile by doing fasting experiments, reviewing your IOB at times of fasting, and observing autotune.
+:::{admonition} Highlights
+:class:
+- Basal profile can be transferred from your pump
+- Adjust your basal profile by doing fasting experiments, reviewing your IOB at times of fasting, and observing autotune.
 :::
 Basal profile consist of your scheduled basal rates, which determines how much insulin is being delivered at each hour of the day. It is important to understand that these settings are not taken verbaitam by when looping. They will be adjusted on the fly, being replaced with temporary basal rates, based on your current blood sugar reading. Your set values will also be altered by autosens and autotune based on your historical data.
 
