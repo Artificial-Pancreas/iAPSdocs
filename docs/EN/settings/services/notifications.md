@@ -1,7 +1,7 @@
 # Notifications
 Allows configuration of iAPS notifications. Adjust based on your preferences.
 
-Notifications can be enabled/disabled by toggling *Allow Notifications* on/off in *iPhone Settings > Notifications > iAPS*.
+Notifications can be enabled/disabled by toggling `Allow Notifications` on/off in `iPhone Settings > Notifications > iAPS`.
 
 ## Glucose
 
