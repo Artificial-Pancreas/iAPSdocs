@@ -1,5 +1,6 @@
 # OpenAPS Other Settings
-:::{important} Highlights
+:::{admonition} Highlights
+:class:
     None of these settings likely require adjustment from their defaults
 :::
 ## Rewind Resets Autosens
