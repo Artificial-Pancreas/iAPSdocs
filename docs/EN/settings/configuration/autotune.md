@@ -1,5 +1,6 @@
 # Autotune
-:::{important} Highlights
+:::{admonition} Highlights
+:class: important
     - Enable autotune unless you have full confidence in your current profile settings. 
     - Autotune adjustments are limited by autosens max/min.
 :::
