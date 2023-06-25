@@ -7,7 +7,7 @@ Notifications can be enabled/disabled by toggling `Allow Notifications` on/off i
 
 ### Show glucose on the app badge
 This will add your current glucose on top of your iAPS icon. \
-![badge](img/badge.png)
+<img src="./img/badge.png" width="80px" />
 
 ### Always Notify Glucose
 A notification will be triggered every time your glucose is updated in iAPS.
