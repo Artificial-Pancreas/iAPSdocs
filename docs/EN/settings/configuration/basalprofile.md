@@ -1,6 +1,6 @@
 # Basal Profile
 :::{admonition} Highlights
-:class:
+:class: important
 - Basal profile can be transferred from your pump
 - Adjust your basal profile by doing fasting experiments, reviewing your IOB at times of fasting, and observing autotune.
 :::
