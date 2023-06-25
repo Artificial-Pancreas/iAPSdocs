@@ -1,4 +1,4 @@
-# PLEASE NOTE THIS DOCUMENTATION IS STILL BEING WRITTEN BY OUR AWESOME COMMUNITY. UNTIL IT IS FINISHED, PLEASE DO NOT SET UP YOUR IAPS BASED ON THIS DOCUMENTATION ALONE. CONTACT THE COMMUNITY ON DISCORD OR FACEBOOK TO MAKE SURE YOU GET IT RIGHT AND STAY SAFE :)
+**PLEASE NOTE THIS DOCUMENTATION IS STILL BEING WRITTEN BY OUR AWESOME COMMUNITY. UNTIL IT IS FINISHED, PLEASE DO NOT SET UP YOUR iAPS BASED ON THIS DOCUMENTATION ALONE. CONTACT THE COMMUNITY ON DISCORD OR FACEBOOK TO MAKE SURE YOU GET IT RIGHT AND STAY SAFE :)**
 
 # What is iAPS?
 iAPS is a open source artifical pancrease system based on the OpenAPS algorithm. Using the settings you input, carbohydrates and historical data, it aims to automate insulin delivery to reduce the time spend managing your diabetes. Before starting with iAPS, you should consider alternative commercial options such as the Tandem IQ and Omnipod 5, or other open source applications like Loop and AndroidAPS. iAPS is not approved by any health care authority. You are building and running this system at your own risk.
@@ -15,10 +15,14 @@ Upon installation, you will need to configure your settings appropriately. By de
 - Enable SMB and UAM for automatic bolusing (ensure your ISF is optimized before enabling this)
 See Configure for more information on iAPS configuration.
 
+If you are considering a transition from anohter closed loop system, please read [this section](./Configuration/transition-qa.md) first.
+
 # Contribution
 iAPS is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to iAPS, or OpenAPS code base. iAPS is mostly written in SwiftUI. The APS algorithm is written in JS.
 
 You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
+
+<!---
 
 (index-Overview)=
 
@@ -115,3 +119,4 @@ Interface <./resources/alternative.md>
 Citations <./operate/citations.md>
 
 ```
+--->
