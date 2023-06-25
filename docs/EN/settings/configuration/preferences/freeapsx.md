@@ -1,5 +1,6 @@
 # FreeAPS X
-:::{important} Highlights
+:::{admonition} Highlights
+:class: important
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 :::
 ## Glucose Units
