@@ -1,5 +1,6 @@
 # Statistics
-:::{important} Highlights
+:::{admonition} Highlights
+:class: important
     This section is entirely visual and does not impact control.
 :::
 ### Low Glucose Limit
