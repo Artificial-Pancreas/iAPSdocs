@@ -1,8 +1,8 @@
 # Insulin Carbohydrate Ratio
-!!! abstract "Highlights"
+:::{important} Highlights
     - ICR can be transferred from your pump
     - Adjust your ICR by performing a test meal experiment or observing autotune.
-
+:::
 ICR refers to the amount of carbohydrates one unit of insulin is able to neutralize. 
 
 Example: Bill has a 1:10 ICR (aka an ICR of 10). If Bill has 20 carbs with lunch, he will need 2 U of rapid inslin to neutralize it.
