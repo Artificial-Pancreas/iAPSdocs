@@ -22,7 +22,6 @@ iAPS is built by a volunteer community. If you are interested in helping as a pr
 
 You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
 
-<!---
 
 (index-Overview)=
 
@@ -35,6 +34,7 @@ You can also provide support in online support groups by helping them adjust the
 ./Getting-Started/pump.md
 
 ```
+<!---
 
 (index-Analyze)=
 
@@ -45,7 +45,7 @@ You can also provide support in online support groups by helping them adjust the
 ./Analyze/EvaluateCR.md
 
 ```
-
+--->
 (index-Configuration)=
 
 ```{toctree}
@@ -119,4 +119,4 @@ Interface <./resources/alternative.md>
 Citations <./operate/citations.md>
 
 ```
---->
+
