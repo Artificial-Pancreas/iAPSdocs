@@ -1,8 +1,8 @@
 # Visualization and Monitoring
-!!! abstract "Highlights"
+:::{important} Highlights
     - Nightscout is a useful tool for data analysis and for followers
     - Create a Nightscout server and input your URL and API_SECRET in iAPS. Test the connection and enable "Allow Uploads."
-
+:::
 ## Nightscout Introduction
 
 [Nightscout](http://nightscout.info) (NS) is an open source, DIY project that allows real-time access to CGM data via a personal website, smartwatch viewers, or apps and widgets available for smartphones. Setting up a Nightscout web app is the recommended way to visualize your OpenAPS or iAPS closed loop. 
