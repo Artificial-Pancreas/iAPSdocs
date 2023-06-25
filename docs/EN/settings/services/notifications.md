@@ -6,7 +6,7 @@ Notifications can be enabled/disabled by toggling *Allow Notifications* on/off i
 ## Glucose
 
 ### Show glucose on the app badge
-This will add your current glucose on top of your iAPS icon.
+This will add your current glucose on top of your iAPS icon. \
 ![badge](img/badge.png)
 
 ## Carbs Required Threshold
