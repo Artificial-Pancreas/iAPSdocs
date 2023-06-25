@@ -1,7 +1,7 @@
 # OpenAPS Other Settings
 :::{admonition} Highlights
-:class:
-    None of these settings likely require adjustment from their defaults
+:class: important
+- None of these settings likely require adjustment from their defaults
 :::
 ## Rewind Resets Autosens
 Rewind in Medtronic lingo refers to the attachment of a new insulin reservoir and infusion set. For Omnipod users, this means replacing your pod with a new one.
