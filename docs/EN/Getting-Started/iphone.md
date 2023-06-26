@@ -15,13 +15,7 @@ These devices are compatible with iOS 15.1 and newer iOS.
 - iPhone SE (3rd generation or later model; 2022 first release)
 - iPhone SE (2nd generation; 2020 first release)
 
-### Apple Watch
-
-iAPS has a companion app for the Apple Watch. The companion app will show the loop status, and current insulin and carbs onboard. It will also let you add carbs, do a manual bolus and set a temporary target. The companion app only serves as a remote control for the iPhone app; connection to CGM and pump is still done through your iPhone and you will have to bring it with you.
-
-Apple Watch Series 3 and newer are supported. Newer versions of the Apple Watch have better battery life and support always-on display.
-
-## iOS version and Developer Mode
+#### iOS version and Developer Mode
 
 <b>Find your iOS version</b>
 
@@ -42,11 +36,11 @@ When you build iAPS on your phone from Xcode directly and then transition to or 
     ![phone message if trying to run xcode app without developer mode enabled](img/phone-developer-mode-required.jpeg){width="300"}
     {align="center"}
 
-## Automatic Updates
+#### Automatic Updates
 
 Apple provides frequent updates to the iOS. Often, these updates include critical security patches in addition to improved new features. Updates to iOS <i>could</i> make iAPS stop working. <b>Minor</b> updates (like 16.5 -> 16.5.1) are usually not an issue. <b>Major</b> updates (like 16.x -> 17.x) often contain changes that iAPS developers need to include in the app.
 
-### Turn off Automatic Updates!
+#### Turn off Automatic Updates!
 
 * Once you accept an iOS update, you cannot go backwards
     * Some iOS updates require updates to Xcode and macOS before people can build iAPS on that device again
@@ -56,7 +50,7 @@ Apple provides frequent updates to the iOS. Often, these updates include critica
     1. Configure your phone to automatically download the updates
     1. Choose to perform the installation of the updates manually
 
-## Battery Health
+#### Battery Health
 
 Make sure the battery on your phone is solid. Your phone will become a critical health device - you want it to keep working.
 
@@ -65,3 +59,9 @@ Make sure the battery on your phone is solid. Your phone will become a critical 
 
 !!! tip "Low Power Mode"
     With newer iOS (15 and 16), some people have reported iAPS continues working in the background (phone locked) even in [Low Power Mode](https://support.apple.com/en-us/HT205234). Others, have reported they still get red loops. You can experiment to determine if your phone/iOS/app is able to maintain green loops in low power mode.  Otherwise, best practice is to avoid Low Power Mode.
+
+### Apple Watch
+
+iAPS has a companion app for the Apple Watch. The companion app will show the loop status, and current insulin and carbs onboard. It will also let you add carbs, do a manual bolus and set a temporary target. The companion app only serves as a remote control for the iPhone app; connection to CGM and pump is still done through your iPhone and you will have to bring it with you.
+
+Apple Watch Series 3 and newer are supported. Newer versions of the Apple Watch have better battery life and support always-on display.
