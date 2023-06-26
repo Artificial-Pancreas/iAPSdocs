@@ -1,12 +1,12 @@
 # Autosens, Dynamic ISF/ICR and Adjust Basal
-!!! abstract "Highlights"
+:::{important} Highlights
     - Enable Dynamic ISF, Dynamic CR and/or Adjust Basal for more rapid adjustments in response to physiological changes in insulin sensitivity
     - Bias the calculated ISF/CR/Basal rates towards more or less aggressive values by increasing or decreasing the adjustment factor accordingly.
     - Adjustments are limited by autosens max/min.
-
-!!! tip
+:::
+:::{tip}
     Examples in this section employ the default logarithmic formula for calculations. [See the sigmoid section for more information.](sigmoid.md)
-
+:::
 ## Auto-sensitivity Mode
 Auto-sensitivity (autosens) reviews your last 8 hrs and 24 hrs of data every loop cycle (5 min) and determines whether you have been reacting more or less sensitively to insulin. It then makes conservative temporary adjustments to your basal rates, blood sugar target, and ISF.
 
@@ -60,9 +60,9 @@ This is an experimental feature that alters the carb ratio (CR) based on current
 
 If you find your CR changes dramatically day to day and iAPS is not providing adequate bolus recommendations, you can test this feature. Note that iAPS is already makes modifications to your recommended boluses without this feature enabled based on your blood glucose target, COB, and IOB.
 
-!!! note
+:::{note}
     If the calculated autosens.ratio by Dynamic CR is greater than 1, the following formula is used to make the resulting CR less aggressive: 
-
+:::
     - new.autosens.ratio = (autosens.ratio - 1)/2 + 1 
     
 

@@ -1,9 +1,9 @@
 # Pump Settings
-!!! abstract "Highlights"
+:::{important} Highlights
     - Max Basal = 4x max daily basal
     - Max Bolus = Max bolus you give for a meal
     - DIA = 7 hours
-
+:::
 ## Delivery Limits
 These are safety limiters for iAPS. For Max Basal, 4 times your highested scheduled basal rate is generally adequate. For Max Bolus, choose the maximum amount of insulin you generally bolus for meals. 
 
