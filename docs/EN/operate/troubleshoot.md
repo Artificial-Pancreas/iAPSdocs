@@ -37,9 +37,8 @@ Low blood sugar events can happen from time to time, but you will typically not 
 
 If you experience a roller coaster pattern of highs and lows after treating, your [insulin sensitivity factor (ISF)](../settings/configuration/insulinsensitivities.md) is most likely to blame. Look to making your insulin sensitivity less aggressive by 10% or reducing your adjustment factor by 0.1 increments. 
 
------
+
 <b>Additional troubleshooting tips:</b>
------
 
 ## Rebound Lows
 
