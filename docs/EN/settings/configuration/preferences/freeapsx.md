@@ -1,6 +1,7 @@
 # FreeAPS X
-:::{important} Highlights
-    - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
+:::{admonition} Highlights
+:class: important
+- Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 :::
 ## Glucose Units
 Allows you to toggle between mmol/L and mg/dL blood glucose units.
@@ -9,7 +10,9 @@ Allows you to toggle between mmol/L and mg/dL blood glucose units.
 Allows for remote control of FAX using Nightscout.
 
 **Duplicate Delivery Risk**
-<br><span style="color:red";>
+<br>
+:::{admonition} Please read before using remote features
+:class: danger
 We want to highlight a very important risk before you get started.
 <br><br>
 For safety, always assume a previous remote carb / bolus was delivered whether it shows in Nightscout iAPS. For motivation think of the following example:

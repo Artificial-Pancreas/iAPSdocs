@@ -1,6 +1,7 @@
 # Statistics
-:::{important} Highlights
-    This section is entirely visual and does not impact control.
+:::{admonition} Highlights
+:class: important
+This section is entirely visual and does not impact control.
 :::
 ### Low Glucose Limit
 Sets the lower blood sugar limit for statistical determiniation of time below range (TBR).

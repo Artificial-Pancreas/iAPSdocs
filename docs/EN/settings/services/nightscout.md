@@ -1,7 +1,8 @@
 # Visualization and Monitoring
-:::{important} Highlights
-    - Nightscout is a useful tool for data analysis and for followers
-    - Create a Nightscout server and input your URL and API_SECRET in iAPS. Test the connection and enable "Allow Uploads."
+:::{admonition} Highlights
+:class: important
+- Nightscout is a useful tool for data analysis and for followers
+- Create a Nightscout server and input your URL and API_SECRET in iAPS. Test the connection and enable "Allow Uploads."
 :::
 ## Nightscout Introduction
 
