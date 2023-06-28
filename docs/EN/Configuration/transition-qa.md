@@ -81,6 +81,8 @@ iAPS does consider carbs, but not until they're actually absorbed and part of Ca
 
 > So what's the mealtime strategy then?
 
+### Mealtime strategy
+
 Here's the recommendation:
 
 1. Use the bolus calculator before you eat. Enter carbs (and fat and protein if you want). Look at the recommended bolus and tap the info button if you don't agree with the recommendation. 

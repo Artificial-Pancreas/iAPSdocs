@@ -32,6 +32,7 @@ You can also provide support in online support groups by helping them adjust the
 ./Getting-Started/Overview.md
 ./Getting-Started/iphone.md
 ./Getting-Started/pump.md
+./settings/devices/cgm.md
 
 ```
 <!---
