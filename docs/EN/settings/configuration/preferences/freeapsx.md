@@ -26,7 +26,7 @@ The second 5 unit bolus is delivered to the Looper (10 Units total).
 <br><br>
 You can see the danger of sending duplicate bolus/carbs so be careful. If a remote bolus/carb entry doesn’t show in Nightscout/Caregiver, use your own judgment on whether enough time has passed to try again.
 </span>
-
+:::
 To use, navigate to your connect nightscout instance. Click the lock icon on the top right and enter your API-Secret. Next, click the now visible "+" sign on the top right. A "Log a Treatment" menu will open up. 
 
 To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". iAPS will read any carb entries in Nightscout and adjust insulin delivery as configured.
