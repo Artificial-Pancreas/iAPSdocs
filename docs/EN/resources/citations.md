@@ -17,4 +17,4 @@ There are many help groups surrounding iAPS. It is likely someone else has has y
 - <a href="https://loopkit.github.io/looptips/">Loop Tips</a>
 - <a href="https://openaps.readthedocs.io/">OpenAPS Documentation</a>
 - <a href="https://androidaps.readthedocs.io/">AndroidAPS Documentation</a>
-- Support groups on <a href="https://t.me/s/FreeAPSX_News">Telegram Releases</a>, <a href="https://t.me/FreeAPSX_Eng">Telegram News</a>, <a href="https://discord.gg/32VCtN3tMF">Discord</a> and Slack
+- Support groups on <a href="https://t.me/s/FreeAPSX_News">Telegram Releases</a>, <a href="https://t.me/FreeAPSX_Eng">Telegram News</a>, <a href="https://discord.gg/xfnxYaBG">Discord</a> and Slack
