@@ -76,7 +76,7 @@ Should you encounter any build issues, please have a look at the [LoopDocs Build
 
 If you need it, you are most likely to get help in one of these groups:
 
-* [Discord: iAPS channel](https://discord.gg/32VCtN3tMF)
+* [Discord: iAPS channel](https://discord.gg/xfnxYaBG)
 * [Facebook group: iAPS](https://www.facebook.com/groups/1351938092206709)
 * Facebook groups like “Loop and Learn” and “Looped” may become useful too, but these groups are still mostly focussed on Loop
 
