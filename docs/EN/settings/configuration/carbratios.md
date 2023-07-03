@@ -1,7 +1,8 @@
 # Insulin Carbohydrate Ratio
-:::{important} Highlights
-    - ICR can be transferred from your pump
-    - Adjust your ICR by performing a test meal experiment or observing autotune.
+:::{admonition} Highlights
+:class: important
+- ICR can be transferred from your pump
+- Adjust your ICR by performing a test meal experiment or observing autotune.
 :::
 ICR refers to the amount of carbohydrates one unit of insulin is able to neutralize. 
 

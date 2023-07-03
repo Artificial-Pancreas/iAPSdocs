@@ -1,6 +1,7 @@
 # FreeAPS X
-:::{important} Highlights
-    - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
+:::{admonition} Highlights
+:class: important
+- Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 :::
 ## Glucose Units
 Allows you to toggle between mmol/L and mg/dL blood glucose units.
@@ -9,7 +10,9 @@ Allows you to toggle between mmol/L and mg/dL blood glucose units.
 Allows for remote control of FAX using Nightscout.
 
 **Duplicate Delivery Risk**
-<br><span style="color:red";>
+<br>
+:::{admonition} Please read before using remote features
+:class: danger
 We want to highlight a very important risk before you get started.
 <br><br>
 For safety, always assume a previous remote carb / bolus was delivered whether it shows in Nightscout iAPS. For motivation think of the following example:
@@ -23,7 +26,7 @@ The second 5 unit bolus is delivered to the Looper (10 Units total).
 <br><br>
 You can see the danger of sending duplicate bolus/carbs so be careful. If a remote bolus/carb entry doesn’t show in Nightscout/Caregiver, use your own judgment on whether enough time has passed to try again.
 </span>
-
+:::
 To use, navigate to your connect nightscout instance. Click the lock icon on the top right and enter your API-Secret. Next, click the now visible "+" sign on the top right. A "Log a Treatment" menu will open up. 
 
 To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". iAPS will read any carb entries in Nightscout and adjust insulin delivery as configured.

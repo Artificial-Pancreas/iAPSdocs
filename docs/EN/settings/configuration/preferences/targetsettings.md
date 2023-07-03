@@ -1,6 +1,7 @@
 # OpenAPS Targets Settings
-:::{important} Highlights
-    - High Temptarget Raises Sensitivity: Enable if you exercise frequently with high temp targets, and you find yourself going low.
+:::{admonition} Highlights
+:class: important
+- High Temptarget Raises Sensitivity: Enable if you exercise frequently with high temp targets, and you find yourself going low.
 :::
 ## High Temptarget Raises Sensitivity
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
