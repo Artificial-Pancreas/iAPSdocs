@@ -1,8 +1,8 @@
 # User Interface
 
 ## Main Screen
-![Main Screen](img/main.jpg){width="250"}
-![Info Screen](img/info.jpg){width="250"}
+![Main Screen](img/main.jpg){w=250px}
+<img src="img/info.jpg" alt="Info Screen" width="250px" >
 
 The main screen of iAPS can be divided into three sections: 
 
