@@ -50,7 +50,7 @@ You can also provide support in online support groups by helping them adjust the
 (index-Configuration)=
 
 ```{toctree}
-:caption: Configuration
+:caption: Device Configuration
 
 ./Configuration/Configure.md
 ./Configuration/Devices.md
@@ -60,7 +60,7 @@ You can also provide support in online support groups by helping them adjust the
 (index-Settings-Basics)=
 
 ```{toctree}
-:caption: Settings Basics
+:caption: Basic Settings
 
 ./settings/configuration/autotune.md
 ./settings/configuration/basalprofile.md
@@ -80,7 +80,7 @@ You can also provide support in online support groups by helping them adjust the
 (index-Settings-Advanced)=
 
 ```{toctree}
-:caption: Settings Advanced
+:caption: Advanced Settings
 
 ./settings/configuration/concepts/autosens-dynamic.md
 ./settings/configuration/concepts/sigmoid.md
@@ -97,7 +97,7 @@ You can also provide support in online support groups by helping them adjust the
 (index-Operate)=
 
 ```{toctree}
-:caption: Operate
+:caption: Using iAPS
 
 Build <./operate/build.md>
 
