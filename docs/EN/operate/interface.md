@@ -1,8 +1,8 @@
 # User Interface
 
 ## Main Screen
-<img src="operate/img/main.jpg" alt="Main Screen" width="250px" >
-<img src="./img/info.jpg" alt="Info Screen" width="250px" >
+<img src="/operate/img/main.jpg" alt="Main Screen" width="250px" >
+<img src="/operate/img/info.jpg" alt="Info Screen" width="250px" >
 
 The main screen of iAPS can be divided into three sections: 
 
