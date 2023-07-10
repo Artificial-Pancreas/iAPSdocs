@@ -3,9 +3,7 @@
 CGM selection includes the following:
 * Nightscout
 * xDrip
-* Dexcom G5
-* Dexcom G6
-* Dexcom G7
+* Dexcom G5/G6/ONE/G7
 * Glucose Simulator
 * Libre Transmitter
 * Glucose Direct
@@ -31,6 +29,19 @@ This option should only be used when testing the app and not using it to manage 
 ## Libre Transmitter
 This option can be used to pair a compatible Libre cgm directly to iAPS without going through a separate app like xDrip4iOS or Glucose Direct.
 
+### Supported Sensors
+* US Libre 1 10 day sensors *via Transmitters*
+* US Libre 1 14 day sensors *via Transmitters*
+* International Libre 1 sensors *via Transmitters*
+* European Libre 2 sensors *via Transmitters*
+* European Libre 2 sensors *directly via Bluetooth*
+
+### Unsupported sensors
+* Non-European Libre 2 sensors
+* Libre Pro sensors
+* Libre H sensors
+* Libre 3
+  
 ## Glucose Direct
 To use Glucose Direct as a cgm source, you must build it yourself with the same Apple Developer account you used to build your iAPS app. You cannot use a version distributed by someone else's TestFlight.
 
