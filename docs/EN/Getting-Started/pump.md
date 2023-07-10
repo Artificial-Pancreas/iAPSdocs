@@ -150,6 +150,6 @@ Red flags that may indicate a scam:
 
 Medtronic will not typically sell pump supplies directly to customers who have not previously purchased a registered Medtronic pump. Ask your insurance about purchasing pump supplies through a durable medical equipment (DME) provider. Typically, the DME provider will coordinate with your insurance and doctor's office to get the necessary insurance approval and prescriptions for the supplies. If you are brand new to Medtronic infusion sites, you may want to ask for help from friends to try a variety of infusion sets before purchasing a full 90-day supply of any type in particular.
 
-### Next Step: Compatible CGM
+<b> Next Step: Compatible CGM</b>
 
 Now you are ready to check if you have a [Compatible CGM](../settings/devices/cgm.md).
