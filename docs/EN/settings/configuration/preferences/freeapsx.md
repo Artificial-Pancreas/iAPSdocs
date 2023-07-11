@@ -49,6 +49,8 @@ Recommended bolus percentage is a safety feature built into iAPS. By default, iA
 
 Recommended Bolus Percentage allows you to alter the amount initially delivered. At its default (80), it results in 80% of the required meal bolus being delivered before the meal. You can increase or decrease this to alter the insulin delivered prior to the meal.
 
+Note: A manual bolus uses the Eventual BG for glucose prediction, whereas the insulinReg for SMBs uses the minPredBG for glucose prediction (typically lower than Eventual BG).
+
 ## Skip Bolus screen after carbs
 After entering carbs, a mealtime bolus will not be suggested or delivered.
 
