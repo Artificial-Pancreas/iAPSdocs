@@ -31,7 +31,11 @@ To use, navigate to your connect nightscout instance. Click the lock icon on the
 
 To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". iAPS will read any carb entries in Nightscout and adjust insulin delivery as configured.
 
-To configure loop status, pump or to bolus, select the "announcement" event type. In additional notes state one of the following options:
+To configure loop status, pump or to bolus:
+
+1. Select the "announcement" event type.
+2. For "entered by" enter: freeaps-x-remote
+3. In additional notes state one of the following options:
 
 * To bolus, enter "bolus:(amount)" (ex: bolus:0.5).
 * To control pump, enter either "pump:suspend" or "pump:resume". 
