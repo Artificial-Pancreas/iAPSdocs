@@ -15,7 +15,7 @@ Upon installation, you will need to configure your settings appropriately. By de
 - Enable SMB and UAM for automatic bolusing (ensure your ISF is optimized before enabling this)
 See Configure for more information on iAPS configuration.
 
-If you are considering a transition from anohter closed loop system, please read [this section](./Configuration/transition-qa.md) first.
+If you are considering a transition from another closed loop system, please read [this section](./Configuration/transition-qa.md) first.
 
 # Contribution
 iAPS is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to iAPS, or OpenAPS code base. iAPS is mostly written in SwiftUI. The APS algorithm is written in JS.
