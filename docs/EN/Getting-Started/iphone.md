@@ -4,7 +4,7 @@ iAPS requires a relatively recent iPhone. The faster the phone, the better for t
 
 ### iPhone
 
-These devices are compatible with iOS 15.1 and newer iOS.
+These devices are compatible with iOS 16 and newer iOS.
 
 - iPhone 14, all variants
 - iPhone 13, all variants
@@ -25,7 +25,7 @@ Your phone's iOS version can be found under the phone Settings -> General -> Abo
 
 With iOS 16 and watchOS 9, Apple added a feature called "Developer Mode". Your iPhone and Apple Watch need to have this feature enabled in order to allow installation of iAPS. If you want to know more, click on this link: [Apple Link about Developer Mode](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
 
-When you build iAPS on your phone from Xcode directly and then transition to or start with iOS 16, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone running watchOS 9.
+When you build iAPS on your phone from Xcode directly, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone.
 
 
 !!! info "Developer Mode with iOS 16, watchOS 9"
@@ -58,7 +58,7 @@ Make sure the battery on your phone is solid. Your phone will become a critical 
 * Consider buying a battery pack, keep it charged and add it to your travel bag
 
 !!! tip "Low Power Mode"
-    With newer iOS (15 and 16), some people have reported iAPS continues working in the background (phone locked) even in [Low Power Mode](https://support.apple.com/en-us/HT205234). Others, have reported they still get red loops. You can experiment to determine if your phone/iOS/app is able to maintain green loops in low power mode.  Otherwise, best practice is to avoid Low Power Mode.
+    Some people have reported iAPS continues working in the background (phone locked) even in [Low Power Mode](https://support.apple.com/en-us/HT205234). Others, have reported they still get red loops. You can experiment to determine if your phone/iOS/app is able to maintain green loops in low power mode.  Otherwise, best practice is to avoid Low Power Mode.
 
 ### Apple Watch
 
