@@ -20,7 +20,7 @@ Choose the maximum amount of insulin you generally bolus for meals. This can als
 If you enter a bolus higher than this value, it will only deliver this maximum value. So if your max bolus is set to 5U but you enter a 6U bolus, only 5U will be delivered. 
 
 ### Max Carbs
-This is the maximum amount of carbs allowed in a single entry by iAPS. If you enter more than this amount, your entry will be reduced the maximum value. So if your max carbs is set to 125g and you enter 150g, only 125g will be recorded. You could then enter a second entry for 25g to make up the difference.
+This is the maximum amount of carbs allowed in a single entry by iAPS. If you enter more than this amount, your entry will be reduced to the maximum value. So if your max carbs is set to 125g and you enter 150g, only 125g will be recorded. You could then enter a second entry for 25g to make up the difference.
 
 Note that for now, this setting does not limit the maximum carbs allowed to be added via Nightscout or the watch app.
 
