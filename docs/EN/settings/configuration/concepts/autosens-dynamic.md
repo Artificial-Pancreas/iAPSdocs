@@ -18,7 +18,7 @@ Autosens then takes the more conservative calculated sensitivity. In this exampl
 
 If you are using autotune, autosens will use your calculated autotune ICR, ISF and basal rates as its baseline as opposed to your set values.
 
-Note that autosens does not look at meals and make adjustments to your ICR. It only looks at your sensitivity to insulin and adjust ISF/basal rates/blood sugar targets accordingly.
+Note that autosens does not look at meals and make adjustments to your ICR. It only looks at your sensitivity to insulin and adjusts ISF/basal rates/blood sugar targets accordingly.
 
 ## Dynamic ISF
 Autosens was thought by some to be too conservative and slow at making changes. Dynamic ISF is a drop-in replacement for autosens's ISF calculation formula, with the goal of making it more aggressive. If you find that you have high ISF variability throughout the day and autosens is not providing you with sufficent control, you can turn this feature on.
@@ -28,28 +28,28 @@ Dynamic ISF takes into consideration a new variable called "Adjustment Factor" w
 Notes: 
 
 - Dynamic ISF is temporarily disabled and the system reverts to autosens if either "High Temptarget Raises Sensitivity" or "Exercise Mode" is enabled and a high temporary target has been set by the user.
-- While Dynamic ISF is inherently more aggressive, it also provides the user greater control as opposed to autosens via the adjustment factor. You can alter the adjustment factor to make Dynamic ISF less aggressive than the calculated autosens values. 
+- While Dynamic ISF is inherently more aggressive, it also provides the user greater control via the adjustment factor as opposed to autosens. You can alter the adjustment factor to make Dynamic ISF less aggressive than the calculated autosens values. 
 
 ### Advanced information
-Autosens determines an ratio (autosens.ratio) and alters your ISF in the following manner:
+Autosens determines a ratio (autosens.ratio) and alters your ISF in the following manner:
 
 - New ISF = (profile set ISF)/(autosens.ratio)
 
-Example: Bill has an ISF of 3 mmol/L/U (54 mg/dL/U) in his settings. The system finds Bill has been more resistant to insulin lately and needs to increase his insulin. It calculates Bill to have an autosens.ratio of 1.1 (note that a larger autosens.ratio results in you having a lower, more aggressive ISF):
+Example: Bill has an ISF of 3 mmol/L/U (54 mg/dL/U) in his settings. The system finds Bill has been more resistant to insulin lately and needs to increase his insulin. It calculates Bill has an autosens.ratio of 1.1 (note that a larger autosens.ratio results in a lower, more aggressive ISF):
 
-When autosens goes to adjust the ISF, it does the following calculation:
+When autosens adjusts the ISF, it uses the following calculation:
 
 - 3 mmol/L/U ÷ 1.1 = 2.73 mmol/L/U
 - 54 mg/dL/U ÷ 1.1 = 49 mg/dL/U
 
-Bill is now temporarily set to have an ISF of 2.73 mmol/L/U (49 mg/dL/U).
+Bill now temporarily has an ISF of 2.73 mmol/L/U (49 mg/dL/U).
 
 Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternative formula to calculate the autosens.ratio for ISF adjustments. Note this formula uses mg/dL and not mmol/L:
 
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New ISF = (profile set ISF)/(autosens.ratio)
 
-This formula takes into consideration your profile set ISF (profile.sens in mg/dL) current blood glucose (BG in mg/dL), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
+This formula considers your profile set ISF (profile.sens in mg/dL) current blood glucose (BG in mg/dL), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
 
 [Click here to view a graph despicting the logarithmic formula](https://www.desmos.com/calculator/mzuopy9vbl)
 
@@ -59,7 +59,7 @@ This is an experimental feature that alters the carb ratio (CR) based on current
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New CR = (profile set CR)/(autosens.ratio)
 
-If you find your CR changes dramatically day to day and iAPS is not providing adequate bolus recommendations, you can test this feature. Note that iAPS is already makes modifications to your recommended boluses without this feature enabled based on your blood glucose target, COB, and IOB.
+If you find your CR changes dramatically day to day and iAPS is not providing adequate bolus recommendations, you can test this feature. Note that iAPS already makes modifications to your recommended boluses without this feature enabled based on your blood glucose target, COB, and IOB.
 
 :::{note}
     If the calculated autosens.ratio by Dynamic CR is greater than 1, the following formula is used to make the resulting CR less aggressive: 
