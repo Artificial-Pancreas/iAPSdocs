@@ -10,7 +10,7 @@
 These are safety limiters for iAPS. Note that iAPS will prevent you from entering anything higher than these limits, but it won't alert or notify you about it. 
 
 ### Max Basal
-This is the highest temp basal allowed to be set. 4 times your highested scheduled basal rate is generally adequate. 
+This is the highest temp basal allowed to be set. 4 times your highest scheduled basal rate is generally adequate. 
 
 If iAPS predicts you need a temp basal set higher than this value, it will instead set the basal to this maximum value. If you try to manually set a temp basal higher than this value, nothing will happen and your current basal rate will not change. 
 
