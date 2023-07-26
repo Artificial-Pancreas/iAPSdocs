@@ -33,9 +33,9 @@ When you find out your pump has failed, immediately turn off closed loop to prev
    - Enter carbs for treatment into iAPS but do not bolus for it
    - Consider reducing your profile ISF or Adjustment Factor if Dynamic ISF is enabled
 :::
-Low blood sugar events can happen from time to time, but you will typically not require as much carbs to treat your lows as opposed to MDI or using a pump. When you treat a low, you should still enter the carbs consumed into the iAPS system so its autotune functionality can make better choices on your ICR, ISF and basal rates.
+Low blood sugar events can happen from time to time, but you will typically not require as many carbs to treat your lows as opposed to MDI or using a pump. When you treat a low, you should enter the carbs consumed into the iAPS system so its autotune functionality can make better choices on your ICR, ISF and basal rates.
 
-If you experience a roller coaster pattern of highs and lows after treating, your [insulin sensitivity factor (ISF)](../settings/configuration/insulinsensitivities.md) is most likely to blame. Look to making your insulin sensitivity less aggressive by 10% or reducing your adjustment factor by 0.1 increments. 
+If you experience a roller coaster pattern of highs and lows after treating, your [insulin sensitivity factor (ISF)](../settings/configuration/insulinsensitivities.md) is most likely to blame. Consider making your insulin sensitivity less aggressive by 10% or reducing your adjustment factor by 0.1 increments. 
 
 
 <b>Additional troubleshooting tips:</b>
@@ -47,7 +47,7 @@ If you experience a roller coaster pattern of highs and lows after treating, you
 * Under certain circumstances, iAPS might react to the fast BG rise by giving insulin, leading to another low
 :::
 
-If you want to make sure you avoid a second low, you can instruct iAPS not to give any SMB's for a while after a low, giving your BG time to stabilize. Set up a [Temporary Target](./temptarget.md) preset that is a bit higher than your usual target (e.g. 7,5 mmol/L | 136 mg/dl). Make sure that [Allow SMB With High Temptarget](../settings/configuration/preferences/smbsettings.md) is disabled. Make the temporary target last for a while (e.g. 30-45 min).
+To avoid a second low, you can instruct iAPS not to give any SMB's for a while after a low, giving your BG time to stabilize. Set up a [Temporary Target](./temptarget.md) preset that is a bit higher than your usual target (e.g. 7,5 mmol/L | 136 mg/dl). Make sure that [Allow SMB With High Temptarget](../settings/configuration/preferences/smbsettings.md) is disabled. Make the temporary target last for a while (e.g. 30-45 min).
 :::{note}
 * Setting a temporary target is not the same as disconnecting the pump
 * iAPS will still be able to give you insulin during the temporary target, but only by adjusting basal rates, resulting in a less aggressive treatment
@@ -64,7 +64,7 @@ If you want to make sure you avoid a second low, you can instruct iAPS not to gi
 :::{note}
 Scenario: your BG rises fast when eating, and ends up too high.
 :::
-If your BG rises fast and ends up too high, it is (without a doubt) because you did not get enough insulin in time for the carb absorption. If we rule out site issues, illness, etc, the logical approach would be to make sure you get more insulin ahead of the carbs. You can achieve this by pre-bolusing for the meal, giving the insulin time to absorb before the carbs kick in. You may want to read the chapter on mealtime strategy on the [transition from other systems](../Configuration/transition-qa.md#what-s-all-that-talk-about-changing-the-way-i-think) page.
+If your BG rises fast and ends up too high, it is (without a doubt) because you did not get enough insulin in time for the carb absorption. If we rule out site issues, illness, etc, the logical approach is to make sure you get more insulin ahead of the carbs. You can achieve this by pre-bolusing for the meal, giving the insulin time to absorb before the carbs kick in. You may want to read the chapter on mealtime strategy on the [transition from other systems](../Configuration/transition-qa.md#what-s-all-that-talk-about-changing-the-way-i-think) page.
 
 ### Persistent high
 :::{note}
@@ -79,7 +79,7 @@ Scenario: your BG rises and ends up too high after a meal, then falls and ends u
 In this scenario, you are not getting enough insulin upfront to deal with the carb absorption, but the total amount of insulin you're getting is too much - causing a low. If this is a repeating scenario, you should look into <b>all of</b> the following:
 
 1. If all the delivered insulin is from one bolus, you should consider adjusting your CR setting so that the bolus calculator gives you less insulin. You should also consider pre-bolusing, giving the insulin some time to absorb before you start eating.
-2. If the delivered insulin is part bolus and part SMB's, you should consider adjusting your ISF setting so that the SMB's give you less insulin. You should also consider pre-bolusing, giving the insulin some more time to absorb before you start eating.
+2. If the delivered insulin is part bolus and part SMB's, you should consider adjusting your ISF setting so that the SMB's give you less insulin. You should also consider pre-bolusing, giving the insulin more time to absorb before you start eating.
 3. In both (1) and (2), if you are using dynamic features for ISF and CR, you should consider lowering the Adjustment Factor and adjusting the Autosens max/min settings.
 
 Please read through the chapters on [Autosens](../settings/configuration/concepts/autosens-dynamic.md) and [Dynamic settings](../settings/configuration/preferences/dynamicsettings.md).
