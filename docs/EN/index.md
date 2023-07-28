@@ -11,7 +11,7 @@ To use iAPS, you are required to build the application from the source code. Thi
 Upon installation, you will need to configure your settings appropriately. By default iAPS acts no different than your pump, with the exception that it may recommend temporary basals from time to time. The magic happens by turning on "Closed Loop", enabling automatic bolus features, and turning on dynamic features. In general, these are the first three settings you will want to configure as you gain confidence in the app and your settings:
 
 - Enable Closed Loop for automation
-- Increase Max IOB via "average mealbolus + 3x max daily basal"
+- Increase Max IOB via "average meal bolus + 3x max daily basal"
 - Enable SMB and UAM for automatic bolusing (ensure your ISF is optimized before enabling this)
 See Configure for more information on iAPS configuration.
 
