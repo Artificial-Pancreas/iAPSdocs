@@ -118,7 +118,7 @@ Go through all the settings, tap the setting name to get an explanation on what 
 Start with CGM and a virtual pump if you want to see how iAPS would react.
 If you have any questions, reach out on Discord or Facebook. But please read the docs first :)
 
-### Watch the Loop N Loop Videos on iAPS:
+### Watch the Loop N Learn Videos on iAPS:
 * [Open Mic: iAPS with Magnus Reintz & Theresa Hastings, 8.3.2023](https://youtu.be/Jubfy-s9URI?si=cKOMb2mcHzBJdPIb)
 * [iAPS with Magnus Reintz & Theresa Hastings: Starting iAPS, 8.17.2023](https://youtu.be/9I1nuHbcUHo?si=wlRurW3Qh_60ss2d)
 * [iAPS Q&A with Magnus Reintz, Tom Barrows, Jonas Hummelstrand & Theresa Hastings, 30 August 2023](https://youtu.be/Li3AKjSrdPw?si=WwLctkAGjVsbDLNs)
