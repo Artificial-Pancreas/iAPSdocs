@@ -21,7 +21,7 @@ If you are using autotune, autosens will use your calculated autotune ICR, ISF a
 Note that autosens does not look at meals and make adjustments to your ICR. It only looks at your sensitivity to insulin and adjusts ISF/basal rates/blood sugar targets accordingly.
 
 ## Dynamic ISF
-Autosens was thought by some to be too conservative and slow at making changes. Dynamic ISF is a drop-in replacement for autosens's ISF calculation formula, with the goal of making it more aggressive. If you find that you have high ISF variability throughout the day and autosens is not providing you with sufficent control, you can turn this feature on.
+Autosens was thought by some to be too conservative and slow at making changes. Dynamic ISF is a drop-in replacement for autosens's ISF calculation formula, with the goal of making it more aggressive. If you find that you have high ISF variability throughout the day and autosens is not providing you with sufficient control, you can turn this feature on.
 
 Dynamic ISF takes into consideration a new variable called "Adjustment Factor" which affects its aggressiveness. If dynamic ISF is too aggressive, you can decrease this number by 0.05-0.1 points to make it more meek. Likewise, increase this number if you still feel dynamic ISF is not aggressive enough.
 
@@ -51,10 +51,10 @@ Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternativ
 
 This formula considers your profile set ISF (profile.sens in mg/dL) current blood glucose (BG in mg/dL), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
 
-[Click here to view a graph despicting the logarithmic formula](https://www.desmos.com/calculator/mzuopy9vbl)
+[Click here to view a graph depicting the logarithmic formula](https://www.desmos.com/calculator/mzuopy9vbl)
 
 ## Dynamic CR
-This is an experimental feature that alters the carb ratio (CR) based on current blood sugar and total daily dose (TDD). Unlike ISF, ICR was not originally altered by autosens with respect to your detected sensitivty. Using Dynamic CR will lead to a dramatic change in how ICR is calculated by iAPS. Dynamic CR uses a similar formula as Dynamic ISF as described above:
+This is an experimental feature that alters the carb ratio (CR) based on current blood sugar and total daily dose (TDD). Unlike ISF, ICR was not originally altered by autosens with respect to your detected sensitivity. Using Dynamic CR will lead to a dramatic change in how ICR is calculated by iAPS. Dynamic CR uses a similar formula as Dynamic ISF as described above:
 
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New CR = (profile set CR)/(autosens.ratio)
