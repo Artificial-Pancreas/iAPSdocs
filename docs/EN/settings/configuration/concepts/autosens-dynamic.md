@@ -52,6 +52,7 @@ Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternativ
 This formula considers your profile set ISF (profile.sens in mg/dL) current blood glucose (BG in mg/dL), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
 
 [Click here to view a graph depicting the logarithmic formula in mg/dL](https://www.desmos.com/calculator/zrkugmdnob)
+
 [Click here to view a graph depicting the logarithmic formula in mmol/L](https://www.desmos.com/calculator/aoxzzrhpro)
 
 ## Dynamic CR
