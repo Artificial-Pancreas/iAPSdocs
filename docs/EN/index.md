@@ -30,6 +30,7 @@ You can also provide support in online support groups by helping them adjust the
 :maxdepth: 2
 
 ./Getting-Started/Overview.md
+./Getting-Started/ProjectStatistics.md
 ./Getting-Started/iphone.md
 ./Getting-Started/pump.md
 ./settings/devices/cgm.md
