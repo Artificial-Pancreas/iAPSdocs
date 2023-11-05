@@ -20,7 +20,7 @@ If you are considering a transition from another closed loop system, please read
 # Contribution
 iAPS is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to iAPS, or OpenAPS code base. iAPS is mostly written in SwiftUI. The APS algorithm is written in JS.
 
-You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
+You can also provide support in online support groups by helping users adjust their settings and troubleshoot common errors.
 
 
 (index-Overview)=
