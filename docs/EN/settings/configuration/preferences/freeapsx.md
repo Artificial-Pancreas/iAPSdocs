@@ -34,7 +34,7 @@ To enter carbs, select the "carb correction" event type. Fill in the required bl
 To configure loop status, pump or to bolus:
 
 1. Select the "announcement" event type.
-2. For "entered by" enter: freeaps-x-remote
+2. For "entered by" enter: remote
 3. In additional notes state one of the following options:
 
 * To bolus, enter "bolus:(amount)" (ex: bolus:0.5).
