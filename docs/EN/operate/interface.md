@@ -11,7 +11,7 @@ The main screen of iAPS can be divided into three sections:
 - Actions (bottom)
 
 ### Status
-The Status section shows your current insulin on board (IOB), carbs on board (COB), blood glucose, pump status, and looping status. A yellow loop indicates a loop cycle has not occured in the last 30 minutes, whereas a red loop indicates a cycle has not occured for longer. The section to the left of the looping status shows you approximate units of insulin left in your pump (i.e. 50+ U means there is more than 50 units of insulin left). The number below this is how long until your pod expires (or infusion site).
+The Status section shows your current insulin on board (IOB), carbs on board (COB), blood glucose, pump status, and looping status. The loop circle will turn yellow if no loop cycle has been completed for over 5 minutes. If more than 10 minutes go by without a successful loop cycle, the loop circle will turn red. If you are using an Omnipod pump, the section to the left of the looping status shows you approximate units of insulin left in your pump (i.e. 50+ U means there is more than 50 units of insulin left). If you are using a Medtronic pump, this section will show your pump battery status. The number below this is how long until your pod expires (or infusion site).
 
 Tapping the top of the screen will bring up a History screen with information on changes implemented by the most recent loop cycle.
 
