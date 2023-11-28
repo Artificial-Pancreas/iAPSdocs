@@ -9,14 +9,14 @@ Autotune makes iterative adjustments to your basal rates, ISF, and carb ratio ba
 
 Autotune is designed to work over weeks to slowly improve the accuracy of your initially set ISF/ICR/basal rates. The output of autotune formulas produces a ratio, similar to that of autosens. This ratio is also limited by the autosens max and min preferences.
 
-## How does it differ from autosens?
+## How does it differ from Autosens?
 
 Autosens is designed to make rapid changes to your profile settings every loop cycle based on your last 8 or 24 hours of data. It accounts for biological changes to insulin sensitivity that occur over the day and night, as well as changes from pump placement. 
 
 Autotune by contrast works on a longer time scale, making slow but sustained changes to your profile to get your set baseline settings more accurate. It is run every 24 hours.
 
-## Should I enable autotune?
-If you believe your profile settings are accurate as is, you can choose to keep autotune disable; it may worsen control in certain scenarios such as after extended periods of sickness.
+## Should I enable Autotune?
+If you believe your profile settings are accurate as is, you can choose to keep autotune disabled; it may worsen control in certain scenarios such as after extended periods of sickness.
 
 If you decide to enable it, you should note that autotune is limited by autosens max and min ratios. You can alter these values to give autotune more flexibility but this also affects autosens, dynamic ISF, dynamic CR, and adjust basal.
 

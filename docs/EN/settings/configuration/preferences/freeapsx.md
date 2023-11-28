@@ -31,7 +31,11 @@ To use, navigate to your connect nightscout instance. Click the lock icon on the
 
 To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". iAPS will read any carb entries in Nightscout and adjust insulin delivery as configured.
 
-To configure loop status, pump or to bolus, select the "announcement" event type. In additional notes state one of the following options:
+To configure loop status, pump or to bolus:
+
+1. Select the "announcement" event type.
+2. For "entered by" enter: remote
+3. In additional notes state one of the following options:
 
 * To bolus, enter "bolus:(amount)" (ex: bolus:0.5).
 * To control pump, enter either "pump:suspend" or "pump:resume". 
@@ -40,10 +44,12 @@ To configure loop status, pump or to bolus, select the "announcement" event type
 
 Note that remote configurations with announcement-type events can only be performed every 10 minutes.
 
-## Recommended Insulin Fraction
-Recommended insulin fraction is a safety feature built into iAPS. By default, iAPS calculates an "insulin required" value when bolusing for carbs that is half of the insulin actually needed to deal with said meal. iAPS then delivers the remaining insulin via SMBs as the blood sugar starts to rise.
+## Recommended Bolus Percentage
+Recommended bolus percentage is a safety feature built into iAPS. By default, iAPS first calculates an "insulin recommended" value when bolusing for carbs, which is the full dosage.  That dosage is then multiplied by your "Recommended Bolus Percentage" to display your suggested insulin dose. iAPS then delivers the remaining insulin via SMBs as the blood sugar starts to rise.
 
-Recommended insulin fraction allows you to alter the amount initially delivered. At its default (1.5), it results in 75% of the required meal bolus being delivered before the meal. You can increase or decrease this to alter the insulin delivered prior to the meal.
+Recommended Bolus Percentage allows you to alter the amount initially delivered. At its default (80), it results in 80% of the required meal bolus being delivered before the meal. You can increase or decrease this to alter the insulin delivered prior to the meal.
+
+Note: A manual bolus uses the Eventual BG for glucose prediction, whereas the insulinReg for SMBs uses the minPredBG for glucose prediction (typically lower than Eventual BG).
 
 ## Skip Bolus screen after carbs
 After entering carbs, a mealtime bolus will not be suggested or delivered.

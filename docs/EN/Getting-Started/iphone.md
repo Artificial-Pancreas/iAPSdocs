@@ -1,11 +1,12 @@
 ## Compatible devices
 
-iAPS requires a relatively recent iPhone. The faster the phone, the better for the algorithm and battery life. You need a minimum version of the mobile operating software, called the phone's "iOS", to be installed on your iPhone. iAPS is compatible with iPhones running on iOS 15.1 or newer.
+iAPS requires a relatively recent iPhone. The faster the phone, the better for the algorithm and battery life. You need a minimum version of the mobile operating software, called the phone's "iOS", to be installed on your iPhone. iAPS is compatible with iPhones running on iOS 17 or newer.
 
 ### iPhone
 
-These devices are compatible with iOS 15.1 and newer iOS.
+These devices are compatible with iOS 17 and newer iOS.
 
+- iPhone 15, all variants
 - iPhone 14, all variants
 - iPhone 13, all variants
 - iPhone 12, all variants
@@ -19,17 +20,17 @@ These devices are compatible with iOS 15.1 and newer iOS.
 
 <b>Find your iOS version</b>
 
-Your phone's iOS version can be found under the phone Settings -> General -> About display. The iOS number is found on the `Software Version` line. When you start looping, you should delay iOS updates until others have confirmed the software functions as normal on the newest update.
+Your phone's iOS version can be found under Settings -> General -> About. The iOS number is found on the `Software Version` line. When you start looping, you should delay iOS updates until others have confirmed the software functions as normal on the newest update.
 
 <b>Developer Mode - Mac build</b>
 
 With iOS 16 and watchOS 9, Apple added a feature called "Developer Mode". Your iPhone and Apple Watch need to have this feature enabled in order to allow installation of iAPS. If you want to know more, click on this link: [Apple Link about Developer Mode](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
 
-When you build iAPS on your phone from Xcode directly and then transition to or start with iOS 16, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone running watchOS 9.
+When you build iAPS on your phone from Xcode directly, you need to have Developer Mode enabled. This is also a requirement to use the iAPS app on a watch paired to your phone.
 
 
-!!! info "Developer Mode with iOS 16, watchOS 9"
-    If you already have iAPS, built with Xcode on a Mac, on your phone/watch when you update to iOS 16/watchOS 9, you will be told that iAPS requires Developer Mode to run.
+!!! info "Developer Mode with iOS 17, watchOS 10"
+    If you already have iAPS, built with Xcode on a Mac, on your phone/watch when you update to iOS 17/watchOS 10, you will be told that iAPS requires Developer Mode to run.
     
     You will not be able to run iAPS on your phone (or watch) until you have enabled Developer Mode on the device(s).
 
@@ -58,7 +59,7 @@ Make sure the battery on your phone is solid. Your phone will become a critical 
 * Consider buying a battery pack, keep it charged and add it to your travel bag
 
 !!! tip "Low Power Mode"
-    With newer iOS (15 and 16), some people have reported iAPS continues working in the background (phone locked) even in [Low Power Mode](https://support.apple.com/en-us/HT205234). Others, have reported they still get red loops. You can experiment to determine if your phone/iOS/app is able to maintain green loops in low power mode.  Otherwise, best practice is to avoid Low Power Mode.
+    Some people have reported iAPS continues working in the background (phone locked) even in [Low Power Mode](https://support.apple.com/en-us/HT205234). Others, have reported they still get red loops. You can experiment to determine if your phone/iOS/app is able to maintain green loops in low power mode.  Otherwise, best practice is to avoid Low Power Mode.
 
 ### Apple Watch
 

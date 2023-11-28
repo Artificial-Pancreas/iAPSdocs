@@ -3,7 +3,7 @@
 :class: important
 - Insulin curve: Choose your insulin type
 - Max IOB: Use the formula "average mealbolus + 3x max daily basal" to determine your Max IOB. Increase slowly if more insulin is warranted
-- Autosens Max/Min: Increase the autosens max and autosense min to allow the system to choose more or less aggressive autotune and autosens values with regards to your scheduled value.
+- Autosens Max/Min: Increase the autosens max and autosens min to allow the system to choose more or less aggressive autotune and autosens values with regards to your scheduled value.
 :::
 ## Insulin Curve
 Enter your insulin type for the appropriate response curve to be used by the algorithm:
@@ -54,7 +54,7 @@ It is 7 am so iAPS has been scheduled to deliver 1 U/hr. But Bill is running hig
 The maximum temporary basal rate that can be set is 2 U/hr * 3 = 6 U/hr
 
 ## Current Basal Safety Multiplier 
-Limits the maximum temporary basal rate iAPS is able to use at the **current time. The default setting of 4, which is unlikely to need adjustment, allows for a maxium basal rate of 4x the current basal rate. 
+Limits the maximum temporary basal rate iAPS is able to use at the **current time. The default setting of 4, which is unlikely to need adjustment, allows for a maximum basal rate of 4x the current basal rate. 
 
 Ex: It is currently 9am and Bill has the following basal profile:
 
