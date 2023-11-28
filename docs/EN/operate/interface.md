@@ -73,11 +73,11 @@ If you tap "Fatty meal" you will see that the bolus recommendation changes accor
 
 ![Fatty Meal](../resources/img/Calculator_3_Fatty_Meal.png)
 
-If you tap "Calculation" you will see how iAPS has come up with the bolus recommendation:
+If you tap "Calculations" you will see how iAPS has come up with the bolus recommendation:
 
 1. The amount of carbs entered
 2. In the green cirle, you will see the relevant profile or dynamic settings: Carb Ratio, ISF, Target Glucose, Basal and fraction/override.
-3. In the orange circle, you will see the relevant current values: Glucose, IOB, Glucose Trend, and COB. You will also see how each of these values affect the outcome of the recommendation. In this screen shot, current glucose is a bit high (12.6 mmol/L or 226 mg/dl) and that leads to an extra 1,43 Units of insulin into the calculation. The current IOB removes 0,08U and the BG trend adds 0,17U.
+3. In the orange circle, you will see the relevant current values: Glucose, IOB, Glucose Trend, and COB. You will also see how each of these values affect the outcome of the recommendation. In this screenshot, current glucose is a bit high (12.6 mmol/L or 226 mg/dl) and that leads to an extra 1,43 Units of insulin into the calculation. The current IOB removes 0,08U and the BG trend adds 0,17U.
 4. In the blue circle, you will see the result of the calculation, including the fraction/override you've set up in settings.
 
 ![Calculation](../resources/img/Calculator_4_Calculation.png)
