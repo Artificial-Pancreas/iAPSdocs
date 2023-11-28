@@ -11,9 +11,9 @@ The main screen of iAPS can be divided into three sections:
 - Actions (bottom)
 
 ### Status
-The Status section shows your current insulin on board (IOB), carbs on board (COB), blood glucose, pump status, and looping status. The loop circle will turn yellow if no loop cycle has been completed for over 5 minutes. If more than 10 minutes go by without a successful loop cycle, the loop circle will turn red. If you are using an Omnipod pump, the section to the left of the looping status shows you approximate units of insulin left in your pump (i.e. 50+ U means there is more than 50 units of insulin left). If you are using a Medtronic pump, this section will show your pump battery status. The number below this is how long until your pod expires (or infusion site).
+The Status section shows your current insulin on board (IOB), carbs on board (COB), blood glucose, pump status, and looping status. The loop circle will turn yellow if no loop cycle has been completed for over 5 minutes. If more than 10 minutes go by without a successful loop cycle, the loop circle will turn red. The section to the left of the loop circle shows you approximate units of insulin left in your pump. If you're using Omnipod, 50+ U means there is more than 50 units of insulin left. Below the insulin left, you will see your pump battery status if you're using a Medtronic pump and the days/hours left if you're using an Omnipod.
 
-Tapping the top of the screen will bring up a History screen with information on changes implemented by the most recent loop cycle.
+Tapping the top of the screen will bring up a History screen with information on changes implemented by the most recent loop cycle. Tapping the pump status will bring you to pump settings.
 
 
 ### Graphs and Statistics
@@ -86,7 +86,7 @@ Tap "OK" to close the calculation pop-up.
 
 Back in the bolus calculator screen you can now choose the next action:
 
-1. Tap "Meal" to go back and edit the meal entry.
+1. (Tap "Meal" to go back and edit the meal entry) <b>Not implemented yet.</b>
 2. Tap "Close" to close the calculator. The meal entry will be discarded and deleted. It will also be removed from Nightscout and Apple Health if you are using those services.
 3. Tap "Continue without bolus" if you want to save the meal entry but you don't want to bolus.
 4. Tap on the "Recommended Bolus" amount to add it as Bolus amount. Finally, tap "Enact Bolus".
