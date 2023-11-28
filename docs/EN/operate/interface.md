@@ -51,11 +51,9 @@ The new bolus calculator is not enabled by default. You need to go into Settings
 
 ![Activate New Bolus Calculator](../resources/img/Calculator_Settings_1.png)
 
-When you activate it you will see some new settings turn up:
+When you activate it you will see some new settings turn up. The intended behaviour of any APS based system is to bolus a partial amount up-front and then let SMB's handle the rest depending on your BG development. Read the explanation in the colus calculator settings and then set your override factors. If you are using an iPhone with a small or low resolution display, you could consider disabling the prediction lines in the calculator by turning off "Display Predictions".
 
 ![Configure New Bolus Calculator](../resources/img/Calculator_Settings_2.png)
-
-The intended behaviour of any APS based system is to bolus a partial amount up-front and then let SMB's handle the rest depending on your BG development. Read the explanation in the colus calculator settings and then set your override factors. If you are using an iPhone with a small or low resolution display, you could consider disabling the prediction lines in the calculator by turning off "Display Predictions".
 
 ### How to use the new Bolus Calculator
 
