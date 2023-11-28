@@ -17,11 +17,11 @@ Tapping the top of the screen will bring up a History screen with information on
 
 
 ### Graphs and Statistics
-The middle of the screen graphs your current blood sugar data and inputted carbs overlayed with iAPS's insulin delivery and blood sugar predictions.
+The middle of the screen graphs your current blood sugar data and inputted carbs overlaid with iAPS's insulin delivery and blood sugar predictions.
 
 The zero temp (ZT) line predicts where your blood sugar would be if insulin delivery and carb absorption were ceased. The IOB line predicts where blood sugar would be if insulin delivery was ceased and carb absorption was minimal. The unannounced meal (UAM) line predicts how long blood glucose will continue to rise, to dose insulin accordingly. For more information on prediction lines, see the [OpenAPS documentation.](https://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/Understand-determine-basal.html)
 
-If enabled, statistics are displayed underneath these graphs detailing your time in range, coefficent of variance (CV) and average glucose. Tapping in this area allows you to change the time interval used to calculate these statistics.
+If enabled, statistics are displayed underneath these graphs detailing your time in range, coefficient of variance (CV) and average glucose. Tapping in this area allows you to change the time interval used to calculate these statistics.
 
 ### Actions
 At the bottom of the screen, you have four action icons:
@@ -51,7 +51,7 @@ The new bolus calculator is not enabled by default. You need to go into Settings
 
 ![Activate New Bolus Calculator](../resources/img/Calculator_Settings_1.png)
 
-When you activate it you will see some new settings turn up. The intended behaviour of any APS based system is to bolus a partial amount up-front and then let SMB's handle the rest depending on your BG development. Read the explanation in the colus calculator settings and then set your override factors. If you are using an iPhone with a small or low resolution display, you could consider disabling the prediction lines in the calculator by turning off "Display Predictions".
+When you activate it you will see some new settings turn up. The intended behaviour of any APS based system is to bolus a partial amount up-front and then let SMB's handle the rest depending on your BG development. Read the explanation in the bolus calculator settings and then set your override factors. If you are using an iPhone with a small or low resolution display, you could consider disabling the prediction lines in the calculator by turning off "Display Predictions".
 
 ![Configure New Bolus Calculator](../resources/img/Calculator_Settings_2.png)
 
@@ -76,7 +76,7 @@ If you tap "Fatty meal" you will see that the bolus recommendation changes accor
 If you tap "Calculations" you will see how iAPS has come up with the bolus recommendation:
 
 1. The amount of carbs entered
-2. In the green cirle, you will see the relevant profile or dynamic settings: Carb Ratio, ISF, Target Glucose, Basal and fraction/override.
+2. In the green circle, you will see the relevant profile or dynamic settings: Carb Ratio, ISF, Target Glucose, Basal and fraction/override.
 3. In the orange circle, you will see the relevant current values: Glucose, IOB, Glucose Trend, and COB. You will also see how each of these values affect the outcome of the recommendation. In this screenshot, current glucose is a bit high (12.6 mmol/L or 226 mg/dl) and that leads to an extra 1,43 Units of insulin into the calculation. The current IOB removes 0,08U and the BG trend adds 0,17U.
 4. In the blue circle, you will see the result of the calculation, including the fraction/override you've set up in settings.
 
