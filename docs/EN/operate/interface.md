@@ -93,6 +93,6 @@ Back in the bolus calculator screen you can now choose the next action:
 
 ![Enact Bolus](../resources/img/Calculator_6_Amount_Selected.png)
 
-If you want to manually override the Bolus amount, you can tap and change:
+If you want to manually override the Bolus amount, you can tap "Bolus" to change it. Only the amount in the "Bolus" field will be enacted.
 
 ![Override Bolus](../resources/img/Calculator_7_Amount_Edited.png)
