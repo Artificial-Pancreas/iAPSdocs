@@ -28,7 +28,7 @@ Eros pods were launched in 2013 and continue to be sold by Insulet. They will st
 
 #### Omnipod DASH
 
-The DASH pods were launched in 2019 and use Bluetooth instead of radio waves, so they don't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
+The DASH pods were launched in 2019 and use Bluetooth, so they don't require a RileyLink or similar device as they connect directly to the phone. DASH pods are easy to identify with their blue tab instead of the clear tab used on Eros and Omnipod 5.
 
 ![dash](img/dash.png)
 
@@ -136,7 +136,7 @@ If you choose to purchase from a remote or unknown seller, here are some tips fo
 
 * Repairs to cracks or missing bits of plastic on battery cap area and reservoir caps are possible and not very difficult in most situations. You can read more about how to repair those [here](../troubleshooting/pump-errors.md#crackmissing-piece-repairs).
 
-* Ask for shipping that includes a tracking number. USPS Priority Mail's smallest box is a great option.  It's only $7.20 domestically in the US and includes tracking. Ask the seller to add a small bit of packing protection such as bubble wrap around the pump to keep it safe during shipping. Make sure you get a tracking number within a reasonable period of time after you have paid.  
+* Ask for shipping that includes a tracking number. USPS Priority Mail's smallest box is a great option.  It's only $10.20 domestically in the US and includes tracking. Ask the seller to add a small bit of packing protection such as bubble wrap around the pump to keep it safe during shipping. Make sure you get a tracking number within a reasonable period of time after you have paid.  
 
 Red flags that may indicate a scam:
 
