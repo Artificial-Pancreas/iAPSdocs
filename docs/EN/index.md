@@ -102,6 +102,8 @@ You can also provide support in online support groups by helping users adjust th
 
 Build <./operate/build.md>
 
+Customizations <./operate/customize.md>
+
 Interface <./operate/interface.md>
 
 Temp Target <./operate/temptarget.md>
