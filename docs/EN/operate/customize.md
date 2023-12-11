@@ -37,3 +37,39 @@ For Eros, edit line 84 of the file `Dependencies/OmniKit/OmniKit/OmnipodCommon/P
 Code before modification: `public static let cannulaInsertionUnitsExtra = 0.0`
 
 Code after modification adding 0.25U of insulin: `public static let cannulaInsertionUnitsExtra = 0.25`
+
+## Add Custom Icon
+
+There are several different app icon options built into iAPS for you to choose from, but you can still add your own if you'd like. You'll need to convert the image you want in PNG file with a resolution of 1024x1024. For this guide, we'll use this icon and call it diabeetus.
+<img src="/operate/img/diabeetus.png" alt="Diabeetus" width="100px" >
+
+1. Go into the folder `FreeAPS/Resources/Assets.xcassets/` and create a new folder called `diabeetus.appiconset`
+   
+2. Add two copies of the 1024x1024 PNG file into this folder, called `diabeetus.png` and `diabeetus 1.png`
+   
+3. Add a file called `Contents.json` with the following contents:
+```json
+{
+  "images" : [
+    {
+      "filename" : "diabeetus.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "diabeetus 1.png",
+      "idiom" : "universal",
+      "platform" : "watchos",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+```
+
+
+4. Insert a new line after line 25 in the file `FreeAPS/Sources/Models/Icons.swift` containing the following text: `case diabeetus = "diabeetus"`
