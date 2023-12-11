@@ -14,9 +14,15 @@ Depending on your iPhone Settings and model, you may have Face ID or Touch ID en
 
 Edit line 28 of the file `FreeAPS/Sources/Services/UnlockManager/UnlockManager.swift`
 
-Code before modification: `if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {`
+Code before modification: 
+```swift
+if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
+```
 
-Code after modification: `if false && context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {`
+Code after modification: 
+```swift
+if false && context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {`
+```
 
 ## Omnipod: Add Extra Insulin on Insertion
 
@@ -28,20 +34,32 @@ This code change is found in one location for Eros Pods an another for DASH Pods
 
 For DASH, edit line 82 of the file `Dependencies/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift`
 
-Code before modification: `public static let cannulaInsertionUnitsExtra = 0.0`
+Code before modification: 
+```swift
+public static let cannulaInsertionUnitsExtra = 0.0`
+```
 
-Code after modification adding 0.25U of insulin: `public static let cannulaInsertionUnitsExtra = 0.25`
+Code after modification adding 0.25U of insulin: 
+```
+public static let cannulaInsertionUnitsExtra = 0.25`
+```
 
 For Eros, edit line 84 of the file `Dependencies/OmniKit/OmniKit/OmnipodCommon/Pod.swift`
 
-Code before modification: `public static let cannulaInsertionUnitsExtra = 0.0`
+Code before modification: 
+```swift
+public static let cannulaInsertionUnitsExtra = 0.0`
+```
 
-Code after modification adding 0.25U of insulin: `public static let cannulaInsertionUnitsExtra = 0.25`
+Code after modification adding 0.25U of insulin: 
+```swift
+public static let cannulaInsertionUnitsExtra = 0.25`
+```
 
 ## Add Custom Icon
 
 There are several different app icon options built into iAPS for you to choose from, but you can still add your own if you'd like. You'll need to convert the image you want in PNG file with a resolution of 1024x1024. For this guide, we'll use this icon and call it diabeetus.
-<img src="/operate/img/diabeetus.png" alt="Diabeetus" width="100px" >
+![diabeetus](img/diabeetus.png)
 
 1. Go into the folder `FreeAPS/Resources/Assets.xcassets/` and create a new folder called `diabeetus.appiconset`
    
