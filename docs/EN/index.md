@@ -102,7 +102,7 @@ You can also provide support in online support groups by helping them adjust the
 
 Build <./operate/build.md>
 
-Customize <./operate/customize.md>
+Customizations <./operate/customize.md>
 
 Interface <./operate/interface.md>
 
