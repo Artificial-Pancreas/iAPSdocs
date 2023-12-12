@@ -21,7 +21,7 @@ if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
 
 Code after modification: 
 ```swift
-if false && context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {`
+if false && context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
 ```
 
 ## Omnipod: Add Extra Insulin on Insertion
@@ -36,30 +36,33 @@ For DASH, edit line 82 of the file `Dependencies/OmniBLE/OmniBLE/OmnipodCommon/P
 
 Code before modification: 
 ```swift
-public static let cannulaInsertionUnitsExtra = 0.0`
+public static let cannulaInsertionUnitsExtra = 0.0
 ```
 
 Code after modification adding 0.25U of insulin: 
 ```
-public static let cannulaInsertionUnitsExtra = 0.25`
+public static let cannulaInsertionUnitsExtra = 0.25
 ```
 
 For Eros, edit line 84 of the file `Dependencies/OmniKit/OmniKit/OmnipodCommon/Pod.swift`
 
 Code before modification: 
 ```swift
-public static let cannulaInsertionUnitsExtra = 0.0`
+public static let cannulaInsertionUnitsExtra = 0.0
 ```
 
 Code after modification adding 0.25U of insulin: 
 ```swift
-public static let cannulaInsertionUnitsExtra = 0.25`
+public static let cannulaInsertionUnitsExtra = 0.25
 ```
 
 ## Add Custom Icon
 
 There are several different app icon options built into iAPS for you to choose from, but you can still add your own if you'd like. You'll need to convert the image you want in PNG file with a resolution of 1024x1024. For this guide, we'll use this icon and call it diabeetus.
-![diabeetus](img/diabeetus.png)
+```{image} img/diabeetus.png
+:alt: diabeetus
+:width: 125px
+```
 
 1. Go into the folder `FreeAPS/Resources/Assets.xcassets/` and create a new folder called `diabeetus.appiconset`
    
