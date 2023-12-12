@@ -34,13 +34,13 @@ To enter carbs, select the "carb correction" event type. Fill in the required bl
 To configure loop status, pump or to bolus:
 
 1. Select the "announcement" event type.
-2. For "entered by" enter: remote
+2. For "entered by" enter `freeaps-x-remote` (If using iAPS-dev, enter `remote` instead)
 3. In additional notes state one of the following options:
 
-* To bolus, enter "bolus:(amount)" (ex: bolus:0.5).
-* To control pump, enter either "pump:suspend" or "pump:resume". 
-* To control looping, enter either "looping:true" or "looping:false"
-* To control temporary basal rate, enter "tempbasal:(rate),(minutes)" (ex: tempbasal:0,60 to set temporary basal rate at 0 U/hr for 60 minutes)
+* To bolus, enter `bolus:(amount)` (ex: `bolus:0.5`).
+* To control pump, enter either `pump:suspend` or `pump:resume`. 
+* To control looping, enter either `looping:true` or `looping:false`
+* To control temporary basal rate, enter `tempbasal:(rate),(minutes)` (ex: `tempbasal:0,60` to set temporary basal rate at 0 U/hr for 60 minutes)
 
 Note that remote configurations with announcement-type events can only be performed every 10 minutes.
 
