@@ -94,3 +94,20 @@ There are several different app icon options built into iAPS for you to choose f
 
 
 4. Insert a new line after line 25 in the file `FreeAPS/Sources/Models/Icons.swift` containing the following text: `case diabeetus = "diabeetus"`
+
+   Code before modification:
+```
+...
+    case loop = "iAPS_Loop"
+    var id: String { rawValue }
+}
+```
+
+   Code after modification:
+```
+...
+    case loop = "iAPS_Loop"
+    case diabeetus = "diabeetus"
+    var id: String { rawValue }
+}
+```
