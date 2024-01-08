@@ -1,2 +1,4 @@
 # Comparison Table of Automated Insulin Delivery Systems
-![Comparison Table](img/compare.png)
+```{image} img/compare.png
+:alt: Comparison Table
+```
