@@ -49,7 +49,7 @@ If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature i
 See the above setting for more information. This allows you to configure the target at which SMBs will be enabled.
 
 ## Enable UAM
-With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell iAPS about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasements caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier.
+With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell iAPS about your carbs or estimate your carbs wrong. It can also help if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose rises caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose drop, it can stop SMBs earlier.
 
 ## Max SMB Basal Minutes
 Max SMB Basal minutes is one of the major limiters of the size of SMBs. For more information on what limits SMB size, please view<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation.</a> SMBs are limited by the amount of scheduled basal insulin in your profile settings.
