@@ -8,8 +8,16 @@
 :::
 One of the easiest ways of optimizing your basal rates is by checking your IOB when you wake up in the morning. iAPS uses your basal profile as its net zero. If iAPS needs to give you more insulin overnight than your set basal rates, your IOB will be positive. Likewise, if you need less insulin overnight than your current basal rates, it will be negative. You can adjust your basal profile by 10%, and reassess the impact the following morning. Below are some nightscout images showing the impact of changing basal rates on IOB. You can also view your IOB on iAPS itself.
 
-![Before basal adjustment](img/negativeIOBbefore.jpg){width="600"}
-![After basal adjustment](img/negativeIOBafter.jpg){width="600"}
+```{figure} img/negativeIOBbefore.jpg
+:alt: Before basal adjustment
+:width: 600px
+Before basal adjustment
+```
+```{figure} img/negativeIOBafter.jpg
+:alt: After basal adjustment
+:width: 600px
+After basal adjustment
+```
 
 Inaccurate basal rates can impact your control in a number of ways. Their values determine how much insulin iAPS delivers with temporary basal rates and autobolus functions. If you consistently have negative IOB in the morning, you are at danger of having lows when your blood sugar rises above your correction range.
 
