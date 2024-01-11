@@ -41,8 +41,6 @@ By default, iAPS will not allow SMBs if you have a temporary blood glucose targe
 ## Enable SMB With High BG 
 This allows SMBs to occur above the measure set below in "...When Blood Glucose is Over (mg/dl)". 
 
-Most users should disable this setting, which can override other iAPS settings. Users looking to set a safety limit at which SMBs can be delivered should set that limit using [Threshold Setting](.main/settings/configuration/preferences/dynamicsettings.html#threshold-setting-mg-dl).
-
 If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
 
 ## ... When Blood Glucose is Over (mg/dl)
