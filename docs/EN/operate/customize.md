@@ -40,7 +40,7 @@ public static let cannulaInsertionUnitsExtra = 0.0
 ```
 
 Code after modification adding 0.25U of insulin: 
-```
+```swift
 public static let cannulaInsertionUnitsExtra = 0.25
 ```
 
@@ -54,6 +54,20 @@ public static let cannulaInsertionUnitsExtra = 0.0
 Code after modification adding 0.25U of insulin: 
 ```swift
 public static let cannulaInsertionUnitsExtra = 0.25
+```
+
+## Confirm Bolus Faster on Apple Watch
+
+You can reduce the amount of spinning required from the Apple Watch's Digital Crown to confirm a bolus by changing line 78 of the file `FreeAPSWatch WatchKit Extension/Views/BolusConfirmationView.swift`. You can choose a different number than `5` if you want, but setting it too high could defeat the purpose of the confirmation and lead to unintended boluses.
+
+Code before modification:
+```swift
+            by: 0.5,
+```
+
+Code after modification:
+```swift
+            by: 5,
 ```
 
 ## Add Custom Icon
@@ -96,7 +110,7 @@ There are several different app icon options built into iAPS for you to choose f
 4. Insert a new line after line 25 in the file `FreeAPS/Sources/Models/Icons.swift` containing the following text: `case diabeetus = "diabeetus"`
 
    Code before modification:
-```
+```swift
 ...
     case loop = "iAPS_Loop"
     var id: String { rawValue }
@@ -104,7 +118,7 @@ There are several different app icon options built into iAPS for you to choose f
 ```
 
    Code after modification:
-```
+```swift
 ...
     case loop = "iAPS_Loop"
     case diabeetus = "diabeetus"
