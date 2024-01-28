@@ -9,47 +9,45 @@
 - Bolus Increment: Change to 0.05 for Omnipod users
 :::
 ## Enable SMB Always
-Enabling this setting allows SMBs to be delivered if your blood sugar is predicted to go above target. 
+Enabling this setting allows SMBs to be delivered if blood sugar is above, or predicted to rise above, your target blood glucose (BG) set in the "Target Glucose" setting or when using a temporary target.
 
-SMBs will remain on if you have a low temporary target set, but will be fully disabled if a high temporary target is set (unless "[Allow SMB With High Temptarget](#allow-smb-with-high-temptarget)" is enabled).
+Some users set a low temporary target, for example, before meals. In this case, with "Enable SMB Always" selected, SMBs will be delivered to assist in bringing your blood sugar to this lower target. 
 
-There are limitations on the size of SMBs. [See the OpenAPS documentation for more information.](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb)
+In other instances, such as when exercising, users may set a high temporary target to avoid low BG. In this case, SMBs are disabled. Note: SMBs will be delivered, even with a high temporary target, if you also select "[Allow SMB With High Temptarget](#allow-smb-with-high-temptarget)" (see below). 
 
 ## Max Delta-BG Threshold SMB
-This is a safety limiter that looks at the difference between your last two blood glucose readings. If the difference is large, iAPS suspects them to be incorrect and will suspend SMB delivery accordingly.
+This is a safety feature that disables SMBs temporarily, if iAPS suspects your BG reading is wrong, based on a large difference between the last two readings. 
 
-You can adjust how much of a difference should be allowed before SMBs are delivered. 30% is advised for closed loop.
+Note: The recommended setting is  0.3 (30%) in closed loop to allow iAPS to use SMB when BG is rising quickly. 
 
 ## Enable SMB With COB
-SMBs will be enabled if you currently have carbs on board (COB) to help you deal with meal spikes. This feature should be enabled if you want to use UAM.
-
-If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
+If you have carbs on board (COB), SMBs will be enabled to reduce meal spikes. 
 
 ## Enable SMB with Temptarget
-SMBs will be enabled if you have set a lower blood sugar target temporarily. This will allow you to reach your target faster.
-
-If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
+SMBs will be enabled if you have set a low temporary target, for example, to reduce BG before meals. Enabling this setting, when using a low temporary target, will allow you to reach your target faster.
 
 ## Enable SMB After Carbs
-SMBs will be enabled if you had carbs within the last 6 hours to help with meal spikes.
-
-If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
+SMBs will be enabled, if you have entered carbs within the last 6 hours — even with 0 COB — to help with meal spikes. 
+This setting is useful when COB shows 0, but your BG is still rising from undercounted carbs, fat or protein. It can also help when your settings are off.
 
 ## Allow SMB With High Temptarget
-By default, iAPS will not allow SMBs if you have a temporary blood glucose target set above 5.5 mmol/L (100 mg/dL), even if "[Enable SMB Always](#enable-smb-always)" is toggled on. Toggling this feature on will disable that safety check and not prevent SMBs when a high temporary target is set, as long as SMBs are otherise enabled.
+Some users temporarily set a higher than normal BG target to avoid insulin delivery, for example, after a low blood sugar. 
+By default, iAPS disables SMBs if you have a temporary BG target set above 100 mg/dL (5.5 mmol), even when "[Enable SMB Always](#enable-smb-always)" is selected. This setting will remove that safety check. 
+
+Note: Most users disable this setting unless they have a specific need for it, because it overrides a default iAPS safety check.
 
 ## Enable SMB With High BG
-This allows SMBs to occur above a certain blood glucose level. Some individuals with variable sensitivity may find that SMBs can cause low blood sugars and rollercoasters when near their target. 
-
-If you are in closed loop and rely heavily on UAM (i.e. you do not bolus for your meals) you should keep this feature disabled so iAPS can provide you with the necessary insulin if you are predicted to go high. Else if you are currently within your target blood glucose range, SMBs will not be delivered.
-
-If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
+For a number of reasons, some users may find that SMBs cause low blood sugars and rollercoastering when near their target. If this is a concern, you can enter a BG target in the setting below to keep SMBs from being delivered below that level.
 
 ## ... When Blood Glucose is Over (mg/dl)
-See the above setting for more information. This allows you to configure the target at which SMBs will be enabled.
+See the above setting for more information. This setting allows you to set the BG target at which SMBs will be enabled.
 
 ## Enable UAM
-With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell iAPS about your carbs or estimate your carbs wrong. It can also help if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose rises caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose drop, it can stop SMBs earlier.
+Enable Unannounced Meal (UAM) detection to allow iAPS to bolus and deliver temp basals in response to rising BG because of underestimated carbs or when no carbs were announced. UAM can also help if a meal with lots of fat and protein has a longer duration than expected. 
+
+The Enable UAM feature can also act to reduce lows. With this selection enabled, when iAPS detects that BG is quickly dropping, it can stop SMB and basal doses.  
+
+Note: Pre-meal bolusing is still advised even with this feature enabled.
 
 ## Max SMB Basal Minutes
 Max SMB Basal minutes is one of the major limiters of the size of SMBs. For more information on what limits SMB size, please view<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation.</a> SMBs are limited by the amount of scheduled basal insulin in your profile settings.
