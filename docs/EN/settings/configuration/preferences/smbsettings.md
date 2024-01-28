@@ -52,20 +52,21 @@ See the above setting for more information. This allows you to configure the tar
 With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell iAPS about your carbs or estimate your carbs wrong. It can also help if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose rises caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose drop, it can stop SMBs earlier.
 
 ## Max SMB Basal Minutes
-Max SMB Basal minutes is one of the major limiters of the size of SMBs. For more information on what limits SMB size, please view<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation.</a> SMBs are limited by the amount of scheduled basal insulin in your profile settings.
+ 
+Max SMB Basal minutes is one of the major limits on how much insulin is delivered by one SMB. 
+The amount of insulin that can be delivered by an SMB is related to the amount of scheduled basal insulin in your "Basal Profile" settings. 
 
-Example: Bill has a basal profile setting of 1.5 U/hr. He has a "Max SMB Basal minutes" setting of 30 min:
+For example, if you are receiving a basal dose of 1 unit per hour, and set "Max SMB Basal minutes" to 30, an SMB will deliver no more insulin than would be delivered by your basal in 30 minutes, or half a unit (0.5U). 
 
-- 1.5 U / 60 min * 30 min = 0.75 U
-
-Each of Bill's SMBs are thus limited to a maximum of 0.75 U by Max SMB Basal Minutes. 
-
-If you find that iAPS is giving insignificant boluses every 5 minutes, it may be being limited by your [Max IOB](./mainsettings.md#max-iob) or [Max SMB basal minutes](#max-smb-basal-minutes). First, confirm your basal rates are adequate. Then you can experiment with increasing this number so iAPS is able to provide larger SMBs for more rapid blood sugar control.
+If you see that iAPS is giving very small — or the same — SMBs every 5 minutes, you may need to adjust the [Max IOB](./mainsettings.md#max-iob) or [Max SMB basal minutes](#max-smb-basal-minutes). First, you should confirm your basal rates are adequate. Then you can experiment with increasing [Max SMB basal minutes](#max-smb-basal-minutes) so iAPS can provide larger SMBs to better respond to BG rises and predicted rises.
 
 ## Max UAM SMB Basal Minutes
-See "[Max SMB Basal Minutes](#max-smb-basal-minutes)" above and<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation</a> for more information on the limiters of SMBs. 
 
-This limits the size of SMBs UAM can deliver when it detects a meal, by the amount of scheduled basal insulin in your profile settings. You can configure this setting to make UAM more or less aggressive against meal spikes. Note that SMBs are also limited by your [Max IOB](./mainsettings.md#max-iob) and [SMB DeliveryRatio](#smb-deliveryratio).
+This setting limits the size of SMBs that iAPS can deliver when it detects an unannounced meal (UAM). The maximum size of each SMB is set in relation to the scheduled basal insulin in your profile settings. 
+
+You can configure this setting to make UAM more or less aggressive to correct meal spikes. Note that SMBs delivered in response to unannounced meals are also limited by your [Max IOB](./mainsettings.md#max-iob). See "[Max SMB Basal Minutes](#max-smb-basal-minutes)" above for information on other settings that limit SMBs.
+
+Tip: If you struggle with meal or hormonal highs, consider increasing maximum basal minutes (slowly and watching results over multiple days before changing again) to allow UAM to give more insulin in one bolus.
 
 ## SMB DeliveryRatio
 This is a safety limiter. iAPS determines how much insulin is required to get you back within target range. If SMB is enabled, iAPS then delivers an SMB, that defaults to half the required insulin.
