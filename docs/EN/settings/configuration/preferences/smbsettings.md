@@ -68,12 +68,15 @@ See "[Max SMB Basal Minutes](#max-smb-basal-minutes)" above and<a href = "https:
 This limits the size of SMBs UAM can deliver when it detects a meal, by the amount of scheduled basal insulin in your profile settings. You can configure this setting to make UAM more or less aggressive against meal spikes. Note that SMBs are also limited by your [Max IOB](./mainsettings.md#max-iob) and [SMB DeliveryRatio](#smb-deliveryratio).
 
 ## SMB DeliveryRatio
-This is a safety limiter. iAPS determines how much insulin is required to get you back within target range. If SMB is enabled, iAPS then delivers an SMB, that defaults to half the required insulin.
+This is a safety limit. iAPS determines how much insulin is required to keep you at your "Target Glucose" setting. If SMBs are enabled, by default iAPS will deliver an SMB at a ratio, by default, of no more than 0.5 (half the size of the required insulin).
 
-This setting allows you to boost or reduce what fraction of the required insulin is delivered in a single SMB. It is recommended you look at your basal profile, [Max SMB basal minutes](#max-smb-basal-minutes), [Max UAM SMB Basal Minutes](#max-uam-smb-basal-minutes), and [Max IOB](./mainsettings.md#max-iob) before you adjust this setting.
+This setting allows you to increase or reduce the ratio of the required insulin delivered in a single SMB.
+
+Changes to SMB DeliveryRatio should be made slowly and cautiously. Before making changes to this setting, it is recommended you review your basal profile. Then you may consider a change to [Max SMB basal minutes](#max-smb-basal-minutes) or [Max UAM SMB Basal Minutes](#max-uam-smb-basal-minutes). It may also be helpful to review your [Max IOB](./mainsettings.md#max-iob) setting to see if it’s sufficient to deliver SMBs that will correct your BG.
 
 ## SMB Interval
 The minimum interval between SMB boluses. SMBs will be delivered at this rate or less as needed.
 
 ## Bolus Increment
-The minimum amount of insulin that can be bolused by iAPS via an SMB. This is determined by your pump hardware.
+This is the minimum size of an SMB that can be delivered by iAPS. This setting should match the one in your pump hardware.
+Note: Omnipod users should change this number to 0.05.
