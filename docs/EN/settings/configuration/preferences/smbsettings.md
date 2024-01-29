@@ -38,10 +38,8 @@ If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature i
 ## Allow SMB With High Temptarget
 By default, iAPS will not allow SMBs if you have a temporary blood glucose target set above 5.5 mmol/L (100 mg/dL), even if "[Enable SMB Always](#enable-smb-always)" is toggled on. Toggling this feature on will disable that safety check and not prevent SMBs when a high temporary target is set, as long as SMBs are otherise enabled.
 
-## Enable SMB With High BG
-This allows SMBs to occur above a certain blood glucose level. Some individuals with variable sensitivity may find that SMBs can cause low blood sugars and rollercoasters when near their target. 
-
-If you are in closed loop and rely heavily on UAM (i.e. you do not bolus for your meals) you should keep this feature disabled so iAPS can provide you with the necessary insulin if you are predicted to go high. Else if you are currently within your target blood glucose range, SMBs will not be delivered.
+## Enable SMB With High BG 
+This allows SMBs to occur above the measure set below in "...When Blood Glucose is Over (mg/dl)". 
 
 If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
 
