@@ -5,7 +5,7 @@
 - SMBs reduce blood sugar more quickly than temporary basal rates.
 - If you want iAPS to make all SMB decisions, select Enable SMB Always and leave the other settings deselected.
 - If you want to configure SMBs only to run in certain conditions, follow the directions below.
-- For a detailed look at when SMBs are delivered, see chart. 
+- For a detailed look at when SMBs are delivered, see chart in [Are SMBs Allowed?](#are-smbs-allowed-?) section. 
 - For setup recommendations, see the Start Up Guide at (www.iaps-app.org).
 
 :::
