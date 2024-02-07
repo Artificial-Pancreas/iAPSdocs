@@ -1,12 +1,13 @@
-# OpenAPS SMB Settings
+# iAPS SMB Settings
 :::{admonition} Highlights
 :class: important
-- Enable SMB Always: Most commonly enabled setting; allows iAPS to provide small correction boluses to make rapid blood sugar adjustments. If you want to configure SMB to only run in certain conditions read below.
-- Max Delta-BG Threshold SMB: Change to 0.3 (30%) for closed loop with UAM enabled.
-- Enable UAM: Enable to allow iAPS to bolus for detected meals. Pre-meal bolusing is still advised even with this feature enabled.
-- Max SMB Basal Minutes: Increase to allow SMB to give more insulin in one bolus. Increase if struggling with fasting highs.
-- Max UAM SMB Basal Minutes: Increase to allow UAM to give more insulin in one bolus. Increase if struggling with meal or hormonal highs.
-- Bolus Increment: Change to 0.05 for Omnipod users
+- Super micro boluses (SMB) deliver small doses of insulin. Your basal rate will be temporarily reduced after an SMB is delivered.
+- SMBs reduce blood sugar more quickly than temporary basal rates.
+- If you want iAPS to make all SMB decisions, select Enable SMB Always and leave the other settings deselected.
+- If you want to configure SMBs only to run in certain conditions, follow the directions below.
+- For a detailed look at when SMBs are delivered, see chart in [Are SMBs Allowed?](#are-smbs-allowed-?) section. 
+- For setup recommendations, see the Start Up Guide at (www.iaps-app.org).
+
 :::
 ## Enable SMB Always
 Enabling this setting allows SMBs to be delivered if your blood sugar is predicted to go above target. 
@@ -38,10 +39,8 @@ If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature i
 ## Allow SMB With High Temptarget
 By default, iAPS will not allow SMBs if you have a temporary blood glucose target set above 5.5 mmol/L (100 mg/dL), even if "[Enable SMB Always](#enable-smb-always)" is toggled on. Toggling this feature on will disable that safety check and not prevent SMBs when a high temporary target is set, as long as SMBs are otherise enabled.
 
-## Enable SMB With High BG
-This allows SMBs to occur above a certain blood glucose level. Some individuals with variable sensitivity may find that SMBs can cause low blood sugars and rollercoasters when near their target. 
-
-If you are in closed loop and rely heavily on UAM (i.e. you do not bolus for your meals) you should keep this feature disabled so iAPS can provide you with the necessary insulin if you are predicted to go high. Else if you are currently within your target blood glucose range, SMBs will not be delivered.
+## Enable SMB With High BG 
+This allows SMBs to occur above the measure set below in "...When Blood Glucose is Over (mg/dl)". 
 
 If you already have "[Enable SMB Always](#enable-smb-always)" on, this feature is redundent and does not need to be configured.
 
@@ -52,20 +51,21 @@ See the above setting for more information. This allows you to configure the tar
 With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell iAPS about your carbs or estimate your carbs wrong. It can also help if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose rises caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose drop, it can stop SMBs earlier.
 
 ## Max SMB Basal Minutes
-Max SMB Basal minutes is one of the major limiters of the size of SMBs. For more information on what limits SMB size, please view<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation.</a> SMBs are limited by the amount of scheduled basal insulin in your profile settings.
+ 
+Max SMB Basal minutes is one of the major limits on how much insulin is delivered by one SMB. 
+The amount of insulin that can be delivered by an SMB is related to the amount of scheduled basal insulin in your "Basal Profile" settings. 
 
-Example: Bill has a basal profile setting of 1.5 U/hr. He has a "Max SMB Basal minutes" setting of 30 min:
+For example, if you are receiving a basal dose of 1 unit per hour, and set "Max SMB Basal minutes" to 30, an SMB will deliver no more insulin than would be delivered by your basal in 30 minutes, or half a unit (0.5U). 
 
-- 1.5 U / 60 min * 30 min = 0.75 U
-
-Each of Bill's SMBs are thus limited to a maximum of 0.75 U by Max SMB Basal Minutes. 
-
-If you find that iAPS is giving insignificant boluses every 5 minutes, it may be being limited by your [Max IOB](./mainsettings.md#max-iob) or [Max SMB basal minutes](#max-smb-basal-minutes). First, confirm your basal rates are adequate. Then you can experiment with increasing this number so iAPS is able to provide larger SMBs for more rapid blood sugar control.
+If you see that iAPS is giving very small — or the same — SMBs every 5 minutes, you may need to adjust the [Max IOB](./mainsettings.md#max-iob) or [Max SMB basal minutes](#max-smb-basal-minutes). First, you should confirm your basal rates are adequate. Then you can experiment with increasing [Max SMB basal minutes](#max-smb-basal-minutes) so iAPS can provide larger SMBs to better respond to BG rises and predicted rises.
 
 ## Max UAM SMB Basal Minutes
-See "[Max SMB Basal Minutes](#max-smb-basal-minutes)" above and<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation</a> for more information on the limiters of SMBs. 
 
-This limits the size of SMBs UAM can deliver when it detects a meal, by the amount of scheduled basal insulin in your profile settings. You can configure this setting to make UAM more or less aggressive against meal spikes. Note that SMBs are also limited by your [Max IOB](./mainsettings.md#max-iob) and [SMB DeliveryRatio](#smb-deliveryratio).
+This setting limits the size of SMBs that iAPS can deliver when it detects an unannounced meal (UAM). The maximum size of each SMB is set in relation to the scheduled basal insulin in your profile settings. 
+
+You can configure this setting to make UAM more or less aggressive to correct meal spikes. Note that SMBs delivered in response to unannounced meals are also limited by your [Max IOB](./mainsettings.md#max-iob). See "[Max SMB Basal Minutes](#max-smb-basal-minutes)" above for information on other settings that limit SMBs.
+
+Tip: If you struggle with meal or hormonal highs, consider increasing maximum basal minutes (slowly and watching results over multiple days before changing again) to allow UAM to give more insulin in one bolus.
 
 ## SMB DeliveryRatio
 This is a safety limiter. iAPS determines how much insulin is required to get you back within target range. If SMB is enabled, iAPS then delivers an SMB, that defaults to half the required insulin.
@@ -77,3 +77,26 @@ The minimum interval between SMB boluses. SMBs will be delivered at this rate or
 
 ## Bolus Increment
 The minimum amount of insulin that can be bolused by iAPS via an SMB. This is determined by your pump hardware.
+
+## Are SMBs Allowed?
+
+![Flow chart that shows whether SMBs are enabled.](https://github.com/pheltzel/iAPSdocs/blob/patch-14/docs/EN/settings/configuration/preferences/SMB-flow-chart.jpeg)
+
+### By following the flow chart above, you can see which combination of settings will allow SMBs.
+
+- If a setting in the top row is toggled off, look at the next box to the right. If no box in the top row is toggled on, then SMBs will not be allowed. 
+- If any of the settings in the top row are toggled on and their condition is true, follow the green line down to the "Allow SMB with High Temptarget" box. 
+- If "Allow SMB with High Temptarget" is toggled on (NOT the default), then you continue to follow the green line to the bottom conditions.
+- If "Allow SMB with High Temptarget" is toggled off (which IS the default), it will then check if you've set a Temp Target (not a custom profile) above 100 mg/dL (5.5 mmol/L). If you have a Temp Target set above 100 mg/dL, then SMBs are DISABLED and not allowed.
+
+If you've made it to the bottom row, it checks all those conditions, and if none of them are true, then SMBs are allowed.
+
+### Here is the order of settings iAPS uses when deciding whether to enable or disable SMBs:
+
+- Disable when a High Temptarget is set (unless "Allow SMB with High Temptarget" is enabled).
+- Enable if "Enable SMB Always" is set (unless disabled for "High Temptarget)".
+- Enable while there are COB.
+- Enable for a full 6 hours after any carb entry.
+- Enable if a Low Temptargt is set.
+
+
