@@ -84,10 +84,10 @@ The minimum amount of insulin that can be bolused by iAPS via an SMB. This is de
 
 ### By following the flow chart above, you can see which combination of settings will allow SMBs.
 
-- If a setting in the top row is deselected, look at the next box to the right. If no box in the top row is selected, then SMBs will not be allowed. 
-- If any of the settings in the top row are selected, follow the green line down to the "Allow SMB with High Temptarget" box. 
-- If Allow SMB with "High Temptarget" is selected (NOT the default), then you continue to follow the green line to the bottom conditions.
-- If "Allow SMB with High Temptarget" is deselected (which IS the default), it will then check if you've set a Temp Target (not a custom profile) above 100 mg/dL (5.5 mmol/L). If you have a Temp Target set above 100 mg/dL, then SMBs are DISABLED and not allowed.
+- If a setting in the top row is toggled off, look at the next box to the right. If no box in the top row is toggled on, then SMBs will not be allowed. 
+- If any of the settings in the top row are toggled on and their condition is true, follow the green line down to the "Allow SMB with High Temptarget" box. 
+- If "Allow SMB with High Temptarget" is toggled on (NOT the default), then you continue to follow the green line to the bottom conditions.
+- If "Allow SMB with High Temptarget" is toggled off (which IS the default), it will then check if you've set a Temp Target (not a custom profile) above 100 mg/dL (5.5 mmol/L). If you have a Temp Target set above 100 mg/dL, then SMBs are DISABLED and not allowed.
 
 If you've made it to the bottom row, it checks all those conditions, and if none of them are true, then SMBs are allowed.
 
