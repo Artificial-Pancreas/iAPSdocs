@@ -80,7 +80,11 @@ The minimum amount of insulin that can be bolused by iAPS via an SMB. This is de
 
 ## Are SMBs Allowed?
 
-![Flow chart that shows whether SMBs are enabled.](https://github.com/pheltzel/iAPSdocs/blob/patch-14/docs/EN/settings/configuration/preferences/SMB-flow-chart.jpeg)
+```{image} SMB-flow-chart.jpeg
+:alt: Main Screen
+:width: 960px
+```
+
 
 ## By following the flow chart above, you can see which combination of settings will allow SMBs.
 
