@@ -63,7 +63,7 @@ To execute the build script, open a terminal on your Mac and then copy and paste
 
 ```
 /bin/bash -c "$(curl -fsSL \
-  https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/Build_iAPS.sh)"
+  https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/Build_iAPS.sh)"
 ```
 
 The download is placed in your `Downloads` folder in a directory called `Build_iAPS`. The downloaded clone is found in a folder with the branch name, date and time encoded.
