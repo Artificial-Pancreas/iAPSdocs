@@ -24,8 +24,9 @@ once you get the settings right.
 * iAPS has dynamic ISF and dynamic IC support in main branch
 
 ### Why should I switch from AndroidAPS to iAPS?
-If you have been successfull with AndroidAPS but miss the Apple ecosystem, you can easily transition to iAPS. If you've been struggling to get stable BG with AndroidAPS, you will probably have the same issues with iAPS.
-Take some time to read the docs and fine-tune your settings. Join Discord or Facebook to get some help from other users. Once you've got your settings in order, you can consider making a switch to iAPS.
+If you have been successful with AndroidAPS but miss the Apple ecosystem, you can easily transition to iAPS. If you've been struggling to get stable BG with AndroidAPS, you will probably have the same issues with iAPS.
+Take some time to read the docs and fine-tune your settings. Join [Discord](https://discord.com/invite/ptkk2Y264Z) or [Facebook](https://www.facebook.com/groups/403549385863967) to get some help from other users. Once you've got your settings in order, you can consider making a switch to iAPS.
+
 
 --
 
