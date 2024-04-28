@@ -77,7 +77,7 @@ Should you encounter any build issues, please have a look at the [LoopDocs Build
 If you need it, you are most likely to get help in one of these groups:
 
 * [Discord: iAPS channel](https://discord.gg/ptkk2Y264Z)
-* [Facebook group: iAPS](https://www.facebook.com/groups/1351938092206709)
+* [Facebook group: iAPS 4.0](https://www.facebook.com/groups/403549385863967)
 * Facebook groups like “Loop and Learn” and “Looped” may become useful too, but these groups are still mostly focussed on Loop
 
 ### xDrip4iOS or Glucose Direct as CGM Source
