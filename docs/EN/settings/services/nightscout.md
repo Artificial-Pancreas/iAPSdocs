@@ -17,3 +17,9 @@ with another person, it will be helpful for you to visualize what the loop is do
 
 ## iAPS Setup
 To enable your nightscout connection, input your Nightscout URL including the "https://" and your API_SECRET. Select "Allow uploads" so iAPS can share its predictions and settings with Nightscout. 
+
+# Import from nightscout
+The 'import from nightscout' button imports basal rates, carb ratios, insulin sensitivity values and target glucose data from Nightscout. 
+
+# Backfill glucose
+The 'Backfill glucose' button lets you backfill the glucose data from nightscout from the previous day and today.
