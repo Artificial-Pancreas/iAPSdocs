@@ -136,24 +136,23 @@ If you prefer to use the command line interface, skip ahead to [Update iAPS with
 
 Open Xcode. If your iAPS (FreeAPS) workspace is not already open for you, you will probably find it in the recent projects as shown in the graphic below. You can also pull down the Xcode menu for `File`, select `Open Recent` and find your workspace.
 
-![open your project](img/xcode-welcome.png){width="600"}
-{align="center"}
+<p align="center">
+  <img alt="Open you project" width="600" src="img/xcode-welcome.png">
+</p>
 
 Refer to the graphic below:
 
 1. Click Source Control
 2. Choose `Fetch changes`
 
-![fetch changes](img/xcode-fetch-changes.png){width="600"}
-{align="center"}
+<p align="center"> <img alt="Fetch changes" width="600" src="img/xcode-fetch-changes.png"> </p>
 
 Refer to the graphic below:
 
 1. Click Source Control again
 2. Select `Pull…`
 
-![open the pull dialog](img/xcode-source-control-pull.png){width="600"}
-{align="center"}
+<p align="center"> <img alt="open the pull dialog" width="600" src="img/xcode-source-control-pull.png"> </p>
 
 Refer to the graphic below:
 
@@ -162,8 +161,7 @@ Refer to the graphic below:
 
 The correct branch should already be selected for you. If you built from `main`, select `main`. If you built from `dev`, select `dev`. (This graphic has the older branch name of `master`.)
 
-![select and pull in dialog](img/xcode-pull-master.png){width="500"}
-{align="center"}
+<p align="center"> <img alt="select and pull" width="600" src="img/xcode-pull-master.png"> </p>
 
 The last steps are only relevant if you made any changes to the code:
 
@@ -213,5 +211,4 @@ Verify the iAPS code was successfully updated by examining the `APP_VERSION` val
 
 If you are using the GitHub method, you can view this same file in your fork of the iAPS repository.
 
-![verify version](img/xcode-build-version.png){width="600"}
-{align="center"}
+<p align="center"> <img alt="verify version" width="600" src="img/xcode-build-version.png"> </p>
