@@ -1,36 +1,26 @@
 # Project Statistics
 
-## What is it?
+## Showing the Impact of DIY APS
 
-One of the hardest advocacy efforts any project has is to so both the adoption, and impact, of that project.  DIYAPS systems are no different, as even though there could be thousands out there using it, from a vendor perspective, we are a fringe group.  And from a professionals perspective, our results are questionable.
+It's tough for any project to demonstrate its reach and effectiveness, and **DIY Artificial Pancreas Systems (APS)** are no exception. Even with potentially thousands of users, from a vendor's viewpoint, we're often seen as a niche group, and healthcare professionals might question our results.
 
-The intent with the statistics server setup is to show both vendors, and professionals, that not only are we out there, but we are getting results equal to, if not better, then non-DIYAPS solutions.
+The goal of our statistics server is to change that perception. We aim to clearly show both vendors and professionals that not only do **DIY APS users exist in significant numbers, but we're also achieving results that are equal to, if not better than, commercial non-DIY APS solutions**.
 
-Commercial vendors out there are driven mostly by, of course, profits.   If there is anyone out there trying to encourage a vendor to improve support for DIY systems, being able to go at them with "this is the market you are currently giving to your competitor" can be compelling, and this is one of the aspects we are trying to be able to push / promote, is loss of marketshare that they could be tapping if they weren't so closed.
-
-The core part to the statistics is they stay up to date, and this is accomplished on of two ways:
-
-* for those using Nightscout servers, we are able to pull the needed statistics directly
-* for those not using Nightscout servers, they are able to configure iAPS to push data into us
-
-In both cases, the process is meant to happen once a day, so that information is updated regularly.
+Commercial vendors are primarily driven by profit. If we want to encourage them to better support DIY systems, being able to say, **"This is the market share you're currently conceding to competitors"** can be a powerful argument. This data helps us highlight the missed market opportunity for vendors who remain closed off to DIY integration.
 
 ## Where is it?
 
-We have a central statistics server setup at https://iaps-stats.hub.org/
+You can view the collected statistics on our central server at https://open-iaps.org/
 
 ## What data is collected?
 
-We pull three pieces of information into the system:
+We collect four main types of information:
 
-* preferences.json
 * statistics.json
-* profile data
-  * profile data consists of your schedule basal, insulin sensitivities and carb ratio data
+* preferences.json
+* Profile data, which includes your scheduled basal rates, insulin sensitivities, and carb ratio data.
 
 ## Who controls the data?
 
-The project is a private contribution to the iAPS project, funded and managed by one person: me 
-
-The only outside access to any of the data in the system is via the web pages at the above URL, nobody has access to the raw data.
+This project is a private contribution to iAPS, funded and managed by a single individual (me). **The only way to access any data in the system is through the public web pages** at the URL mentioned above. No one has direct access to the raw data.
 
